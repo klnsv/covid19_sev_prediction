@@ -1,22 +1,3 @@
-"""Step 06: interferon (ISG) signature baseline.
-
-Does the interferon response alone separate mild from severe patients?
-Ziegler et al. report a weaker ISG response in the nasal epithelium of severe
-patients. The score needs no training, so it is a one-feature baseline for the
-classifiers in step 05.
-
-Reads:  data/processed/nasal_qc.h5ad (C1)
-        data/external/gene_sets/hallmark_interferon_v2024.1.Hs.gmt
-Writes: results/isg/donor_isg_scores.tsv   one row per donor x cell group x gene set
-        results/isg/isg_tests.tsv          MWU tests + AUROC, BH within comparison x gene set
-        results/isg/isg_cv_metrics.tsv     ISG score as a "classifier", same CV + permutation as C5
-        results/isg/isg_perm_null.tsv      permutation null AUROCs behind perm_p
-        results/isg/figures/06_isg_by_group.png
-        results/isg/figures/06_isg_vs_viral_load.png
-        results/isg/figures/06_isg_by_celltype.png
-
-Run: python scripts/06_isg_baseline.py
-"""
 import anndata as ad
 import matplotlib
 matplotlib.use("Agg")
