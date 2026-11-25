@@ -133,7 +133,6 @@ data/
 scripts/        # numbered pipeline: 01_qc.py, 03_patient_features.py, 05_classify.py, ...
 notebooks/      # exploration + figures (NN_<topic>.ipynb)
 results/<workstream>/   # tables (.tsv) + figures/
-logs/           # one log per AI session + transcripts/ (course AI-usage supplement)
 docs/literature/
 ```
 
