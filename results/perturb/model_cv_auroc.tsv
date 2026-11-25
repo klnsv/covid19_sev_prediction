@@ -1,0 +1,7 @@
+ct	n_severe	n_mild	n_controls	n_genes_median	auroc_median	auroc_min	auroc_max
+squamous_cells	12	9	11	2004	0.7407	0.6111	0.7963
+all	21	14	15	2001	0.8265	0.6973	0.9184
+ciliated_cells	16	14	15	2004	0.7321	0.6741	0.8393
+secretory_cells	15	9	3	2003	0.6704	0.5926	0.7111
+t_cells	8	9	7	2004	0.5486	0.4861	0.6250
+goblet_cells	12	9	12	2000	0.5139	0.3704	0.7037
