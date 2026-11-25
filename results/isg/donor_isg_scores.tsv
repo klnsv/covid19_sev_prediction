@@ -1,0 +1,479 @@
+donor_id	ct	gene_set	n_cells	score	group	severe	who_peak	log_viral_load
+COVID19_Participant10	epithelial	ifn_alpha	18	0.08894639693476403	mild	0.0	5	0.0
+COVID19_Participant11	epithelial	ifn_alpha	361	0.1249597634412086	mild	0.0	5	0.0
+COVID19_Participant12	epithelial	ifn_alpha	95	0.1497100625359187	severe	1.0	8	2.028509443331254
+COVID19_Participant13	epithelial	ifn_alpha	450	0.11363187023557272	severe	1.0	8	1.5797204307827162
+COVID19_Participant14	epithelial	ifn_alpha	363	0.08349667994541979	severe	1.0	8	3.1952010083898594
+COVID19_Participant15	epithelial	ifn_alpha	948	0.21916114082430196	severe	1.0	8	0.0
+COVID19_Participant17	epithelial	ifn_alpha	795	0.12012653876749758	severe	1.0	8	0.6651500764593764
+COVID19_Participant18	epithelial	ifn_alpha	227	0.03521142631779949	severe	1.0	8	4.425577806236423
+COVID19_Participant19	epithelial	ifn_alpha	140	0.19000353141122564	severe	1.0	8	0.0
+COVID19_Participant2	epithelial	ifn_alpha	318	0.24677694996215505	severe	1.0	8	0.7793369653332218
+COVID19_Participant20	epithelial	ifn_alpha	1959	0.1073325512234695	severe	1.0	7	2.78795790605285
+COVID19_Participant21	epithelial	ifn_alpha	34	0.10994313396298656	severe	1.0	8	0.0
+COVID19_Participant22	epithelial	ifn_alpha	846	0.13297095230340897	mild	0.0	5	0.21280027376949945
+COVID19_Participant23	epithelial	ifn_alpha	303	0.3512682314705559	severe	1.0	8	3.5751971331065886
+COVID19_Participant25	epithelial	ifn_alpha	493	0.27062483225686174	mild	0.0	4	4.137629475987748
+COVID19_Participant26	epithelial	ifn_alpha	810	0.13085057005926584	severe	1.0	8	3.4044719082737163
+COVID19_Participant27	epithelial	ifn_alpha	80	0.2047470151454563	severe	1.0	8	0.0
+COVID19_Participant28	epithelial	ifn_alpha	1055	0.2596160882384501	severe	1.0	8	3.975625777800904
+COVID19_Participant29	epithelial	ifn_alpha	556	0.3998604760238479	mild	0.0	4	3.613096808473882
+COVID19_Participant3	epithelial	ifn_alpha	101	0.08805478822001328	severe	1.0	7	0.0
+COVID19_Participant30	epithelial	ifn_alpha	113	0.04359588887251826	severe	1.0	8	4.792956387723007
+COVID19_Participant31	epithelial	ifn_alpha	353	0.05668905413549816	severe	1.0	6	0.86712184854117
+COVID19_Participant32	epithelial	ifn_alpha	1230	0.08753756661663205	severe	1.0	7	0.35837870947676065
+COVID19_Participant35	epithelial	ifn_alpha	71	0.12163471320040119	mild	0.0	1	0.0
+COVID19_Participant36	epithelial	ifn_alpha	191	0.11213195293385077	mild	0.0	1	0.0
+COVID19_Participant37	epithelial	ifn_alpha	535	0.24297156259130995	mild	0.0	1	0.0
+COVID19_Participant38	epithelial	ifn_alpha	42	0.07457345031255774	severe	1.0	7	0.0
+COVID19_Participant39	epithelial	ifn_alpha	328	0.3224086330829982	mild	0.0	1	0.0
+COVID19_Participant4	epithelial	ifn_alpha	1673	0.11441412306022261	severe	1.0	8	0.17823631380772267
+COVID19_Participant40	epithelial	ifn_alpha	314	0.0772681536423008	mild	0.0	3	0.0
+COVID19_Participant5	epithelial	ifn_alpha	72	0.2559173361030745	mild	0.0	5	0.0
+COVID19_Participant6	epithelial	ifn_alpha	81	0.2976479154392897	mild	0.0	5	4.14740942152052
+COVID19_Participant7	epithelial	ifn_alpha	373	0.08758114974783299	mild	0.0	3	0.8748195217555503
+COVID19_Participant8	epithelial	ifn_alpha	348	0.3194436888149209	mild	0.0	4	0.0
+COVID19_Participant9	epithelial	ifn_alpha	84	0.16119564023082353	severe	1.0	8	0.0
+Control_Participant1	epithelial	ifn_alpha	353	0.07459312342633634	control		0	0.0
+Control_Participant10	epithelial	ifn_alpha	909	0.07689851042870885	control		0	0.0
+Control_Participant11	epithelial	ifn_alpha	1135	0.024564583889956092	control		0	0.0
+Control_Participant12	epithelial	ifn_alpha	99	0.004764540979891096	control		0	0.0
+Control_Participant13	epithelial	ifn_alpha	86	0.003468965389478275	control		0	0.0
+Control_Participant14	epithelial	ifn_alpha	274	0.024066976768367564	control		0	0.0
+Control_Participant15	epithelial	ifn_alpha	518	-0.0029595131609495987	control		0	0.0
+Control_Participant16	epithelial	ifn_alpha	836	0.19341547468124579	control_icu		8	0.0
+Control_Participant17	epithelial	ifn_alpha	806	0.10714293156729601	control_icu		8	0.0
+Control_Participant18	epithelial	ifn_alpha	954	0.06474617291540567	control_icu		8	0.0
+Control_Participant19	epithelial	ifn_alpha	32	0.014817334433243467	control_icu		8	0.0
+Control_Participant2	epithelial	ifn_alpha	41	0.04217374023169627	control		0	0.0
+Control_Participant20	epithelial	ifn_alpha	262	0.11331290691810064	control_icu		8	0.0
+Control_Participant21	epithelial	ifn_alpha	283	0.12034297878922808	control_icu		8	0.0
+Control_Participant3	epithelial	ifn_alpha	1594	0.08129189487502925	control		0	0.0
+Control_Participant4	epithelial	ifn_alpha	400	0.07616344115551545	control		0	0.0
+Control_Participant5	epithelial	ifn_alpha	656	0.05202948369372396	control		0	0.0
+Control_Participant6	epithelial	ifn_alpha	120	0.07020916945981509	control		0	0.0
+Control_Participant7	epithelial	ifn_alpha	746	0.04670533571768654	control		0	0.0
+Control_Participant8	epithelial	ifn_alpha	375	0.07512156550462454	control		0	0.37836190417272747
+Control_Participant9	epithelial	ifn_alpha	551	0.00027618044343740935	control		0	0.0
+COVID19_Participant10	epithelial	ifn_gamma	18	0.10257552236363036	mild	0.0	5	0.0
+COVID19_Participant11	epithelial	ifn_gamma	361	0.09481031101967217	mild	0.0	5	0.0
+COVID19_Participant12	epithelial	ifn_gamma	95	0.11526286305045542	severe	1.0	8	2.028509443331254
+COVID19_Participant13	epithelial	ifn_gamma	450	0.10223158766771767	severe	1.0	8	1.5797204307827162
+COVID19_Participant14	epithelial	ifn_gamma	363	0.07373319649553309	severe	1.0	8	3.1952010083898594
+COVID19_Participant15	epithelial	ifn_gamma	948	0.18431344442629066	severe	1.0	8	0.0
+COVID19_Participant17	epithelial	ifn_gamma	795	0.10879006624984378	severe	1.0	8	0.6651500764593764
+COVID19_Participant18	epithelial	ifn_gamma	227	0.02944074565898772	severe	1.0	8	4.425577806236423
+COVID19_Participant19	epithelial	ifn_gamma	140	0.17942375361968693	severe	1.0	8	0.0
+COVID19_Participant2	epithelial	ifn_gamma	318	0.19477211884654208	severe	1.0	8	0.7793369653332218
+COVID19_Participant20	epithelial	ifn_gamma	1959	0.10884821504167633	severe	1.0	7	2.78795790605285
+COVID19_Participant21	epithelial	ifn_gamma	34	0.09443580246552902	severe	1.0	8	0.0
+COVID19_Participant22	epithelial	ifn_gamma	846	0.12382043198848766	mild	0.0	5	0.21280027376949945
+COVID19_Participant23	epithelial	ifn_gamma	303	0.25405881450519213	severe	1.0	8	3.5751971331065886
+COVID19_Participant25	epithelial	ifn_gamma	493	0.1881867096198724	mild	0.0	4	4.137629475987748
+COVID19_Participant26	epithelial	ifn_gamma	810	0.11908264388261927	severe	1.0	8	3.4044719082737163
+COVID19_Participant27	epithelial	ifn_gamma	80	0.1558833374529577	severe	1.0	8	0.0
+COVID19_Participant28	epithelial	ifn_gamma	1055	0.22547386259604982	severe	1.0	8	3.975625777800904
+COVID19_Participant29	epithelial	ifn_gamma	556	0.30570127847624107	mild	0.0	4	3.613096808473882
+COVID19_Participant3	epithelial	ifn_gamma	101	0.07185188157331572	severe	1.0	7	0.0
+COVID19_Participant30	epithelial	ifn_gamma	113	0.05293527724271242	severe	1.0	8	4.792956387723007
+COVID19_Participant31	epithelial	ifn_gamma	353	0.07213020056885877	severe	1.0	6	0.86712184854117
+COVID19_Participant32	epithelial	ifn_gamma	1230	0.08889158557489682	severe	1.0	7	0.35837870947676065
+COVID19_Participant35	epithelial	ifn_gamma	71	0.10368619943350506	mild	0.0	1	0.0
+COVID19_Participant36	epithelial	ifn_gamma	191	0.11151305019033707	mild	0.0	1	0.0
+COVID19_Participant37	epithelial	ifn_gamma	535	0.20100064891321232	mild	0.0	1	0.0
+COVID19_Participant38	epithelial	ifn_gamma	42	0.105016424254764	severe	1.0	7	0.0
+COVID19_Participant39	epithelial	ifn_gamma	328	0.24957738274025712	mild	0.0	1	0.0
+COVID19_Participant4	epithelial	ifn_gamma	1673	0.12130150953949631	severe	1.0	8	0.17823631380772267
+COVID19_Participant40	epithelial	ifn_gamma	314	0.09739495563716269	mild	0.0	3	0.0
+COVID19_Participant5	epithelial	ifn_gamma	72	0.19680152722707298	mild	0.0	5	0.0
+COVID19_Participant6	epithelial	ifn_gamma	81	0.21172381357226497	mild	0.0	5	4.14740942152052
+COVID19_Participant7	epithelial	ifn_gamma	373	0.09055933943202682	mild	0.0	3	0.8748195217555503
+COVID19_Participant8	epithelial	ifn_gamma	348	0.24403266356635644	mild	0.0	4	0.0
+COVID19_Participant9	epithelial	ifn_gamma	84	0.1336189947665671	severe	1.0	8	0.0
+Control_Participant1	epithelial	ifn_gamma	353	0.08526947583016235	control		0	0.0
+Control_Participant10	epithelial	ifn_gamma	909	0.09036104112895667	control		0	0.0
+Control_Participant11	epithelial	ifn_gamma	1135	0.04822195324601919	control		0	0.0
+Control_Participant12	epithelial	ifn_gamma	99	0.021681336589739954	control		0	0.0
+Control_Participant13	epithelial	ifn_gamma	86	0.038143932175606986	control		0	0.0
+Control_Participant14	epithelial	ifn_gamma	274	0.04124750720681494	control		0	0.0
+Control_Participant15	epithelial	ifn_gamma	518	0.020393545059011076	control		0	0.0
+Control_Participant16	epithelial	ifn_gamma	836	0.1860939725573814	control_icu		8	0.0
+Control_Participant17	epithelial	ifn_gamma	806	0.11543112212780902	control_icu		8	0.0
+Control_Participant18	epithelial	ifn_gamma	954	0.0698174050519256	control_icu		8	0.0
+Control_Participant19	epithelial	ifn_gamma	32	0.03265907533748088	control_icu		8	0.0
+Control_Participant2	epithelial	ifn_gamma	41	0.05317507658262927	control		0	0.0
+Control_Participant20	epithelial	ifn_gamma	262	0.10445037849870786	control_icu		8	0.0
+Control_Participant21	epithelial	ifn_gamma	283	0.14428914256129932	control_icu		8	0.0
+Control_Participant3	epithelial	ifn_gamma	1594	0.08878756875839577	control		0	0.0
+Control_Participant4	epithelial	ifn_gamma	400	0.09310450206800995	control		0	0.0
+Control_Participant5	epithelial	ifn_gamma	656	0.06992235150681234	control		0	0.0
+Control_Participant6	epithelial	ifn_gamma	120	0.07725666475997742	control		0	0.0
+Control_Participant7	epithelial	ifn_gamma	746	0.04787309543813985	control		0	0.0
+Control_Participant8	epithelial	ifn_gamma	375	0.06930966586220717	control		0	0.37836190417272747
+Control_Participant9	epithelial	ifn_gamma	551	0.020892157397291156	control		0	0.0
+COVID19_Participant10	ciliated_cells	ifn_alpha	12	0.0866854368256912	mild	0.0	5	0.0
+COVID19_Participant11	ciliated_cells	ifn_alpha	47	0.07087728586811029	mild	0.0	5	0.0
+COVID19_Participant12	ciliated_cells	ifn_alpha	14	0.10473497725720471	severe	1.0	8	2.028509443331254
+COVID19_Participant13	ciliated_cells	ifn_alpha	35	0.07810002299574692	severe	1.0	8	1.5797204307827162
+COVID19_Participant14	ciliated_cells	ifn_alpha	24	0.08592991597352677	severe	1.0	8	3.1952010083898594
+COVID19_Participant15	ciliated_cells	ifn_alpha	27	0.18995469993478395	severe	1.0	8	0.0
+COVID19_Participant17	ciliated_cells	ifn_alpha	22	0.09118213227777222	severe	1.0	8	0.6651500764593764
+COVID19_Participant2	ciliated_cells	ifn_alpha	108	0.22103945690676483	severe	1.0	8	0.7793369653332218
+COVID19_Participant20	ciliated_cells	ifn_alpha	28	0.13651420823795685	severe	1.0	7	2.78795790605285
+COVID19_Participant22	ciliated_cells	ifn_alpha	40	0.14593332865108882	mild	0.0	5	0.21280027376949945
+COVID19_Participant23	ciliated_cells	ifn_alpha	144	0.32656630452409063	severe	1.0	8	3.5751971331065886
+COVID19_Participant25	ciliated_cells	ifn_alpha	390	0.27506511337898243	mild	0.0	4	4.137629475987748
+COVID19_Participant26	ciliated_cells	ifn_alpha	314	0.09613913973287146	severe	1.0	8	3.4044719082737163
+COVID19_Participant28	ciliated_cells	ifn_alpha	128	0.21877246835853442	severe	1.0	8	3.975625777800904
+COVID19_Participant29	ciliated_cells	ifn_alpha	149	0.42459691996077004	mild	0.0	4	3.613096808473882
+COVID19_Participant3	ciliated_cells	ifn_alpha	23	0.08042310252744468	severe	1.0	7	0.0
+COVID19_Participant31	ciliated_cells	ifn_alpha	37	0.08272913930415854	severe	1.0	6	0.86712184854117
+COVID19_Participant32	ciliated_cells	ifn_alpha	455	0.09203008695429325	severe	1.0	7	0.35837870947676065
+COVID19_Participant35	ciliated_cells	ifn_alpha	43	0.14841086510994145	mild	0.0	1	0.0
+COVID19_Participant36	ciliated_cells	ifn_alpha	50	0.06744161815876444	mild	0.0	1	0.0
+COVID19_Participant37	ciliated_cells	ifn_alpha	320	0.24213723940961523	mild	0.0	1	0.0
+COVID19_Participant38	ciliated_cells	ifn_alpha	19	0.09601377824944236	severe	1.0	7	0.0
+COVID19_Participant39	ciliated_cells	ifn_alpha	143	0.515229969888284	mild	0.0	1	0.0
+COVID19_Participant4	ciliated_cells	ifn_alpha	940	0.11037722258867544	severe	1.0	8	0.17823631380772267
+COVID19_Participant40	ciliated_cells	ifn_alpha	54	0.15240880197070278	mild	0.0	3	0.0
+COVID19_Participant5	ciliated_cells	ifn_alpha	43	0.26598851900224746	mild	0.0	5	0.0
+COVID19_Participant6	ciliated_cells	ifn_alpha	47	0.393926233554285	mild	0.0	5	4.14740942152052
+COVID19_Participant7	ciliated_cells	ifn_alpha	184	0.08096234512294362	mild	0.0	3	0.8748195217555503
+COVID19_Participant8	ciliated_cells	ifn_alpha	92	0.296729703818006	mild	0.0	4	0.0
+COVID19_Participant9	ciliated_cells	ifn_alpha	10	0.04683857275585312	severe	1.0	8	0.0
+Control_Participant1	ciliated_cells	ifn_alpha	133	0.07954953213471629	control		0	0.0
+Control_Participant10	ciliated_cells	ifn_alpha	646	0.06875711148634012	control		0	0.0
+Control_Participant11	ciliated_cells	ifn_alpha	59	0.024338750854726563	control		0	0.0
+Control_Participant12	ciliated_cells	ifn_alpha	59	-0.029076414250042724	control		0	0.0
+Control_Participant13	ciliated_cells	ifn_alpha	35	-0.008476908369714004	control		0	0.0
+Control_Participant14	ciliated_cells	ifn_alpha	155	0.01697012765313825	control		0	0.0
+Control_Participant15	ciliated_cells	ifn_alpha	393	-0.0129663590375609	control		0	0.0
+Control_Participant16	ciliated_cells	ifn_alpha	26	0.020180872302446067	control_icu		8	0.0
+Control_Participant17	ciliated_cells	ifn_alpha	656	0.09776976127204387	control_icu		8	0.0
+Control_Participant18	ciliated_cells	ifn_alpha	140	0.07882154946520559	control_icu		8	0.0
+Control_Participant19	ciliated_cells	ifn_alpha	18	0.01609374527918618	control_icu		8	0.0
+Control_Participant2	ciliated_cells	ifn_alpha	13	0.07285390496936898	control		0	0.0
+Control_Participant21	ciliated_cells	ifn_alpha	95	0.1396728463774377	control_icu		8	0.0
+Control_Participant3	ciliated_cells	ifn_alpha	1438	0.08127699772727068	control		0	0.0
+Control_Participant4	ciliated_cells	ifn_alpha	277	0.05073233970674929	control		0	0.0
+Control_Participant5	ciliated_cells	ifn_alpha	555	0.04565585766722871	control		0	0.0
+Control_Participant6	ciliated_cells	ifn_alpha	77	0.04812707304035597	control		0	0.0
+Control_Participant7	ciliated_cells	ifn_alpha	73	0.041943139016133994	control		0	0.0
+Control_Participant8	ciliated_cells	ifn_alpha	31	0.06199348901578592	control		0	0.37836190417272747
+Control_Participant9	ciliated_cells	ifn_alpha	468	-0.008204528699940664	control		0	0.0
+COVID19_Participant10	ciliated_cells	ifn_gamma	12	0.09354831983512413	mild	0.0	5	0.0
+COVID19_Participant11	ciliated_cells	ifn_gamma	47	0.06715824079916985	mild	0.0	5	0.0
+COVID19_Participant12	ciliated_cells	ifn_gamma	14	0.08197120699420757	severe	1.0	8	2.028509443331254
+COVID19_Participant13	ciliated_cells	ifn_gamma	35	0.06520470236006085	severe	1.0	8	1.5797204307827162
+COVID19_Participant14	ciliated_cells	ifn_gamma	24	0.07406200457222643	severe	1.0	8	3.1952010083898594
+COVID19_Participant15	ciliated_cells	ifn_gamma	27	0.1615906639929408	severe	1.0	8	0.0
+COVID19_Participant17	ciliated_cells	ifn_gamma	22	0.08347131834988772	severe	1.0	8	0.6651500764593764
+COVID19_Participant2	ciliated_cells	ifn_gamma	108	0.17970629867094978	severe	1.0	8	0.7793369653332218
+COVID19_Participant20	ciliated_cells	ifn_gamma	28	0.12866354611410277	severe	1.0	7	2.78795790605285
+COVID19_Participant22	ciliated_cells	ifn_gamma	40	0.1395481701439759	mild	0.0	5	0.21280027376949945
+COVID19_Participant23	ciliated_cells	ifn_gamma	144	0.22559678835659597	severe	1.0	8	3.5751971331065886
+COVID19_Participant25	ciliated_cells	ifn_gamma	390	0.18844071073144048	mild	0.0	4	4.137629475987748
+COVID19_Participant26	ciliated_cells	ifn_gamma	314	0.09237814771099297	severe	1.0	8	3.4044719082737163
+COVID19_Participant28	ciliated_cells	ifn_gamma	128	0.19134791800454604	severe	1.0	8	3.975625777800904
+COVID19_Participant29	ciliated_cells	ifn_gamma	149	0.3156087486661424	mild	0.0	4	3.613096808473882
+COVID19_Participant3	ciliated_cells	ifn_gamma	23	0.07440284957282564	severe	1.0	7	0.0
+COVID19_Participant31	ciliated_cells	ifn_gamma	37	0.09078294488469789	severe	1.0	6	0.86712184854117
+COVID19_Participant32	ciliated_cells	ifn_gamma	455	0.09117583291386884	severe	1.0	7	0.35837870947676065
+COVID19_Participant35	ciliated_cells	ifn_gamma	43	0.12364944455200617	mild	0.0	1	0.0
+COVID19_Participant36	ciliated_cells	ifn_gamma	50	0.07403770021644214	mild	0.0	1	0.0
+COVID19_Participant37	ciliated_cells	ifn_gamma	320	0.1966190675614283	mild	0.0	1	0.0
+COVID19_Participant38	ciliated_cells	ifn_gamma	19	0.10043256644029283	severe	1.0	7	0.0
+COVID19_Participant39	ciliated_cells	ifn_gamma	143	0.37358032663102814	mild	0.0	1	0.0
+COVID19_Participant4	ciliated_cells	ifn_gamma	940	0.11764833960549803	severe	1.0	8	0.17823631380772267
+COVID19_Participant40	ciliated_cells	ifn_gamma	54	0.15401124968346955	mild	0.0	3	0.0
+COVID19_Participant5	ciliated_cells	ifn_gamma	43	0.20669790385425582	mild	0.0	5	0.0
+COVID19_Participant6	ciliated_cells	ifn_gamma	47	0.27903162161937595	mild	0.0	5	4.14740942152052
+COVID19_Participant7	ciliated_cells	ifn_gamma	184	0.07981040822212136	mild	0.0	3	0.8748195217555503
+COVID19_Participant8	ciliated_cells	ifn_gamma	92	0.21769058173011988	mild	0.0	4	0.0
+COVID19_Participant9	ciliated_cells	ifn_gamma	10	0.04013728910604579	severe	1.0	8	0.0
+Control_Participant1	ciliated_cells	ifn_gamma	133	0.08683579007500794	control		0	0.0
+Control_Participant10	ciliated_cells	ifn_gamma	646	0.08474461887771867	control		0	0.0
+Control_Participant11	ciliated_cells	ifn_gamma	59	0.055158097919866145	control		0	0.0
+Control_Participant12	ciliated_cells	ifn_gamma	59	-0.0067372223844355695	control		0	0.0
+Control_Participant13	ciliated_cells	ifn_gamma	35	0.0239882050838075	control		0	0.0
+Control_Participant14	ciliated_cells	ifn_gamma	155	0.0362180199605042	control		0	0.0
+Control_Participant15	ciliated_cells	ifn_gamma	393	0.010696667760400895	control		0	0.0
+Control_Participant16	ciliated_cells	ifn_gamma	26	0.04942507417056138	control_icu		8	0.0
+Control_Participant17	ciliated_cells	ifn_gamma	656	0.10783840847514474	control_icu		8	0.0
+Control_Participant18	ciliated_cells	ifn_gamma	140	0.08274242822444806	control_icu		8	0.0
+Control_Participant19	ciliated_cells	ifn_gamma	18	0.03358998789272141	control_icu		8	0.0
+Control_Participant2	ciliated_cells	ifn_gamma	13	0.09073713951909057	control		0	0.0
+Control_Participant21	ciliated_cells	ifn_gamma	95	0.1445486893376848	control_icu		8	0.0
+Control_Participant3	ciliated_cells	ifn_gamma	1438	0.08886195264897337	control		0	0.0
+Control_Participant4	ciliated_cells	ifn_gamma	277	0.06998778444968903	control		0	0.0
+Control_Participant5	ciliated_cells	ifn_gamma	555	0.06550589057788919	control		0	0.0
+Control_Participant6	ciliated_cells	ifn_gamma	77	0.06021320752309213	control		0	0.0
+Control_Participant7	ciliated_cells	ifn_gamma	73	0.04657263140577795	control		0	0.0
+Control_Participant8	ciliated_cells	ifn_gamma	31	0.04906816224239945	control		0	0.37836190417272747
+Control_Participant9	ciliated_cells	ifn_gamma	468	0.013275093387066377	control		0	0.0
+COVID19_Participant11	secretory_cells	ifn_alpha	40	0.1445713692236735	mild	0.0	5	0.0
+COVID19_Participant12	secretory_cells	ifn_alpha	26	0.1512467895505526	severe	1.0	8	2.028509443331254
+COVID19_Participant13	secretory_cells	ifn_alpha	80	0.1575314932665578	severe	1.0	8	1.5797204307827162
+COVID19_Participant14	secretory_cells	ifn_alpha	125	0.09630671462903198	severe	1.0	8	3.1952010083898594
+COVID19_Participant15	secretory_cells	ifn_alpha	110	0.16983687843710052	severe	1.0	8	0.0
+COVID19_Participant17	secretory_cells	ifn_alpha	395	0.15252136809716854	severe	1.0	8	0.6651500764593764
+COVID19_Participant18	secretory_cells	ifn_alpha	185	0.04127282136727969	severe	1.0	8	4.425577806236423
+COVID19_Participant19	secretory_cells	ifn_alpha	55	0.24358504346778687	severe	1.0	8	0.0
+COVID19_Participant20	secretory_cells	ifn_alpha	1304	0.11582686479258461	severe	1.0	7	2.78795790605285
+COVID19_Participant21	secretory_cells	ifn_alpha	13	0.11648771090469554	severe	1.0	8	0.0
+COVID19_Participant22	secretory_cells	ifn_alpha	237	0.17773129960939338	mild	0.0	5	0.21280027376949945
+COVID19_Participant23	secretory_cells	ifn_alpha	95	0.4397567690174644	severe	1.0	8	3.5751971331065886
+COVID19_Participant25	secretory_cells	ifn_alpha	28	0.32104416906886274	mild	0.0	4	4.137629475987748
+COVID19_Participant26	secretory_cells	ifn_alpha	99	0.24665991658719438	severe	1.0	8	3.4044719082737163
+COVID19_Participant27	secretory_cells	ifn_alpha	39	0.25115528953447364	severe	1.0	8	0.0
+COVID19_Participant28	secretory_cells	ifn_alpha	18	0.24682484077969752	severe	1.0	8	3.975625777800904
+COVID19_Participant29	secretory_cells	ifn_alpha	194	0.47360304567619627	mild	0.0	4	3.613096808473882
+COVID19_Participant32	secretory_cells	ifn_alpha	18	0.2616023654737178	severe	1.0	7	0.35837870947676065
+COVID19_Participant36	secretory_cells	ifn_alpha	26	0.206742777936181	mild	0.0	1	0.0
+COVID19_Participant37	secretory_cells	ifn_alpha	15	0.5062040571285673	mild	0.0	1	0.0
+COVID19_Participant4	secretory_cells	ifn_alpha	150	0.18593616286031564	severe	1.0	8	0.17823631380772267
+COVID19_Participant40	secretory_cells	ifn_alpha	15	0.20042180566895737	mild	0.0	3	0.0
+COVID19_Participant7	secretory_cells	ifn_alpha	14	0.1675929884589462	mild	0.0	3	0.8748195217555503
+COVID19_Participant8	secretory_cells	ifn_alpha	50	0.46843497735642936	mild	0.0	4	0.0
+Control_Participant10	secretory_cells	ifn_alpha	13	0.12467207457245398	control		0	0.0
+Control_Participant11	secretory_cells	ifn_alpha	29	0.09609569684047739	control		0	0.0
+Control_Participant16	secretory_cells	ifn_alpha	10	0.08768264525514904	control_icu		8	0.0
+Control_Participant17	secretory_cells	ifn_alpha	22	0.27463849012372754	control_icu		8	0.0
+Control_Participant18	secretory_cells	ifn_alpha	45	0.11842819883961436	control_icu		8	0.0
+Control_Participant20	secretory_cells	ifn_alpha	31	0.1861050253366907	control_icu		8	0.0
+Control_Participant8	secretory_cells	ifn_alpha	22	0.07590605474674693	control		0	0.37836190417272747
+COVID19_Participant11	secretory_cells	ifn_gamma	40	0.12086696537469058	mild	0.0	5	0.0
+COVID19_Participant12	secretory_cells	ifn_gamma	26	0.12665852651330817	severe	1.0	8	2.028509443331254
+COVID19_Participant13	secretory_cells	ifn_gamma	80	0.14030021933326184	severe	1.0	8	1.5797204307827162
+COVID19_Participant14	secretory_cells	ifn_gamma	125	0.07987818383943315	severe	1.0	8	3.1952010083898594
+COVID19_Participant15	secretory_cells	ifn_gamma	110	0.16012658071648864	severe	1.0	8	0.0
+COVID19_Participant17	secretory_cells	ifn_gamma	395	0.1380500050628867	severe	1.0	8	0.6651500764593764
+COVID19_Participant18	secretory_cells	ifn_gamma	185	0.034759398133638396	severe	1.0	8	4.425577806236423
+COVID19_Participant19	secretory_cells	ifn_gamma	55	0.21309924722790644	severe	1.0	8	0.0
+COVID19_Participant20	secretory_cells	ifn_gamma	1304	0.11912911573008875	severe	1.0	7	2.78795790605285
+COVID19_Participant21	secretory_cells	ifn_gamma	13	0.108577292769855	severe	1.0	8	0.0
+COVID19_Participant22	secretory_cells	ifn_gamma	237	0.16514788290845525	mild	0.0	5	0.21280027376949945
+COVID19_Participant23	secretory_cells	ifn_gamma	95	0.33430595703044574	severe	1.0	8	3.5751971331065886
+COVID19_Participant25	secretory_cells	ifn_gamma	28	0.2392985095076213	mild	0.0	4	4.137629475987748
+COVID19_Participant26	secretory_cells	ifn_gamma	99	0.2012472244595606	severe	1.0	8	3.4044719082737163
+COVID19_Participant27	secretory_cells	ifn_gamma	39	0.18824740878261936	severe	1.0	8	0.0
+COVID19_Participant28	secretory_cells	ifn_gamma	18	0.22461220675005697	severe	1.0	8	3.975625777800904
+COVID19_Participant29	secretory_cells	ifn_gamma	194	0.37061858344640636	mild	0.0	4	3.613096808473882
+COVID19_Participant32	secretory_cells	ifn_gamma	18	0.233349542800701	severe	1.0	7	0.35837870947676065
+COVID19_Participant36	secretory_cells	ifn_gamma	26	0.18145852584561076	mild	0.0	1	0.0
+COVID19_Participant37	secretory_cells	ifn_gamma	15	0.3975912457891225	mild	0.0	1	0.0
+COVID19_Participant4	secretory_cells	ifn_gamma	150	0.19728954749189367	severe	1.0	8	0.17823631380772267
+COVID19_Participant40	secretory_cells	ifn_gamma	15	0.20450277751577514	mild	0.0	3	0.0
+COVID19_Participant7	secretory_cells	ifn_gamma	14	0.1828959328357634	mild	0.0	3	0.8748195217555503
+COVID19_Participant8	secretory_cells	ifn_gamma	50	0.3767997668348103	mild	0.0	4	0.0
+Control_Participant10	secretory_cells	ifn_gamma	13	0.14722140855391	control		0	0.0
+Control_Participant11	secretory_cells	ifn_gamma	29	0.11586688959937878	control		0	0.0
+Control_Participant16	secretory_cells	ifn_gamma	10	0.09812414850984644	control_icu		8	0.0
+Control_Participant17	secretory_cells	ifn_gamma	22	0.26614021728666476	control_icu		8	0.0
+Control_Participant18	secretory_cells	ifn_gamma	45	0.1293107255406561	control_icu		8	0.0
+Control_Participant20	secretory_cells	ifn_gamma	31	0.174933436469234	control_icu		8	0.0
+Control_Participant8	secretory_cells	ifn_gamma	22	0.07845342221185156	control		0	0.37836190417272747
+COVID19_Participant11	goblet_cells	ifn_alpha	46	0.11080783495689189	mild	0.0	5	0.0
+COVID19_Participant13	goblet_cells	ifn_alpha	35	0.10010513254813348	severe	1.0	8	1.5797204307827162
+COVID19_Participant17	goblet_cells	ifn_alpha	13	0.07974145701293762	severe	1.0	8	0.6651500764593764
+COVID19_Participant2	goblet_cells	ifn_alpha	109	0.33868690434617466	severe	1.0	8	0.7793369653332218
+COVID19_Participant20	goblet_cells	ifn_alpha	13	0.11576889311645805	severe	1.0	7	2.78795790605285
+COVID19_Participant22	goblet_cells	ifn_alpha	36	0.09507367099926956	mild	0.0	5	0.21280027376949945
+COVID19_Participant23	goblet_cells	ifn_alpha	14	0.276480662204191	severe	1.0	8	3.5751971331065886
+COVID19_Participant25	goblet_cells	ifn_alpha	29	0.31883234151926065	mild	0.0	4	4.137629475987748
+COVID19_Participant26	goblet_cells	ifn_alpha	90	0.1618200091683277	severe	1.0	8	3.4044719082737163
+COVID19_Participant27	goblet_cells	ifn_alpha	19	0.15403811748535692	severe	1.0	8	0.0
+COVID19_Participant28	goblet_cells	ifn_alpha	835	0.2749769364307163	severe	1.0	8	3.975625777800904
+COVID19_Participant29	goblet_cells	ifn_alpha	162	0.32768126042584117	mild	0.0	4	3.613096808473882
+COVID19_Participant31	goblet_cells	ifn_alpha	45	0.0654672993389828	severe	1.0	6	0.86712184854117
+COVID19_Participant32	goblet_cells	ifn_alpha	230	0.1052585879360244	severe	1.0	7	0.35837870947676065
+COVID19_Participant36	goblet_cells	ifn_alpha	26	0.15975325897413192	mild	0.0	1	0.0
+COVID19_Participant37	goblet_cells	ifn_alpha	30	0.22064525360508763	mild	0.0	1	0.0
+COVID19_Participant4	goblet_cells	ifn_alpha	88	0.14904313302315197	severe	1.0	8	0.17823631380772267
+COVID19_Participant5	goblet_cells	ifn_alpha	11	0.29174450299808236	mild	0.0	5	0.0
+COVID19_Participant7	goblet_cells	ifn_alpha	52	0.10788193771021166	mild	0.0	3	0.8748195217555503
+COVID19_Participant8	goblet_cells	ifn_alpha	103	0.36565115235304657	mild	0.0	4	0.0
+COVID19_Participant9	goblet_cells	ifn_alpha	43	0.18381993334420701	severe	1.0	8	0.0
+Control_Participant1	goblet_cells	ifn_alpha	10	0.1843879118499577	control		0	0.0
+Control_Participant10	goblet_cells	ifn_alpha	91	0.09957466239605481	control		0	0.0
+Control_Participant11	goblet_cells	ifn_alpha	83	0.03045441732576814	control		0	0.0
+Control_Participant13	goblet_cells	ifn_alpha	16	0.02260570928491135	control		0	0.0
+Control_Participant14	goblet_cells	ifn_alpha	29	0.05885405730942978	control		0	0.0
+Control_Participant15	goblet_cells	ifn_alpha	38	0.039172329685295104	control		0	0.0
+Control_Participant16	goblet_cells	ifn_alpha	14	0.08404470205181645	control_icu		8	0.0
+Control_Participant17	goblet_cells	ifn_alpha	60	0.18702263399385916	control_icu		8	0.0
+Control_Participant18	goblet_cells	ifn_alpha	10	0.10081659439218145	control_icu		8	0.0
+Control_Participant20	goblet_cells	ifn_alpha	20	0.1610007767655749	control_icu		8	0.0
+Control_Participant21	goblet_cells	ifn_alpha	15	0.13361005672604656	control_icu		8	0.0
+Control_Participant3	goblet_cells	ifn_alpha	39	0.1205146215609204	control		0	0.0
+Control_Participant4	goblet_cells	ifn_alpha	45	0.1700568325331121	control		0	0.0
+Control_Participant5	goblet_cells	ifn_alpha	37	0.1295132693554722	control		0	0.0
+Control_Participant6	goblet_cells	ifn_alpha	25	0.15010490025158066	control		0	0.0
+Control_Participant8	goblet_cells	ifn_alpha	12	0.028597955486426963	control		0	0.37836190417272747
+Control_Participant9	goblet_cells	ifn_alpha	58	0.0586340633235424	control		0	0.0
+COVID19_Participant11	goblet_cells	ifn_gamma	46	0.09169246032386191	mild	0.0	5	0.0
+COVID19_Participant13	goblet_cells	ifn_gamma	35	0.09635542949928419	severe	1.0	8	1.5797204307827162
+COVID19_Participant17	goblet_cells	ifn_gamma	13	0.07411428046644995	severe	1.0	8	0.6651500764593764
+COVID19_Participant2	goblet_cells	ifn_gamma	109	0.2599561190854174	severe	1.0	8	0.7793369653332218
+COVID19_Participant20	goblet_cells	ifn_gamma	13	0.10237128970976275	severe	1.0	7	2.78795790605285
+COVID19_Participant22	goblet_cells	ifn_gamma	36	0.09961806380653186	mild	0.0	5	0.21280027376949945
+COVID19_Participant23	goblet_cells	ifn_gamma	14	0.22516796517292126	severe	1.0	8	3.5751971331065886
+COVID19_Participant25	goblet_cells	ifn_gamma	29	0.22916734719415752	mild	0.0	4	4.137629475987748
+COVID19_Participant26	goblet_cells	ifn_gamma	90	0.13730087875384256	severe	1.0	8	3.4044719082737163
+COVID19_Participant27	goblet_cells	ifn_gamma	19	0.12187532228111421	severe	1.0	8	0.0
+COVID19_Participant28	goblet_cells	ifn_gamma	835	0.2376944111197359	severe	1.0	8	3.975625777800904
+COVID19_Participant29	goblet_cells	ifn_gamma	162	0.2502420300946204	mild	0.0	4	3.613096808473882
+COVID19_Participant31	goblet_cells	ifn_gamma	45	0.0804805533191235	severe	1.0	6	0.86712184854117
+COVID19_Participant32	goblet_cells	ifn_gamma	230	0.11175863862546394	severe	1.0	7	0.35837870947676065
+COVID19_Participant36	goblet_cells	ifn_gamma	26	0.14766549834769044	mild	0.0	1	0.0
+COVID19_Participant37	goblet_cells	ifn_gamma	30	0.18502231287656212	mild	0.0	1	0.0
+COVID19_Participant4	goblet_cells	ifn_gamma	88	0.1404950756788972	severe	1.0	8	0.17823631380772267
+COVID19_Participant5	goblet_cells	ifn_gamma	11	0.2535096770455882	mild	0.0	5	0.0
+COVID19_Participant7	goblet_cells	ifn_gamma	52	0.109583693708134	mild	0.0	3	0.8748195217555503
+COVID19_Participant8	goblet_cells	ifn_gamma	103	0.26695101877037397	mild	0.0	4	0.0
+COVID19_Participant9	goblet_cells	ifn_gamma	43	0.14266300390756353	severe	1.0	8	0.0
+Control_Participant1	goblet_cells	ifn_gamma	10	0.1719092983099438	control		0	0.0
+Control_Participant10	goblet_cells	ifn_gamma	91	0.11094003899479979	control		0	0.0
+Control_Participant11	goblet_cells	ifn_gamma	83	0.05480007312222538	control		0	0.0
+Control_Participant13	goblet_cells	ifn_gamma	16	0.0652173707151673	control		0	0.0
+Control_Participant14	goblet_cells	ifn_gamma	29	0.07506772532600464	control		0	0.0
+Control_Participant15	goblet_cells	ifn_gamma	38	0.07691929328314241	control		0	0.0
+Control_Participant16	goblet_cells	ifn_gamma	14	0.09301730511401095	control_icu		8	0.0
+Control_Participant17	goblet_cells	ifn_gamma	60	0.18084765489974478	control_icu		8	0.0
+Control_Participant18	goblet_cells	ifn_gamma	10	0.1072702641659135	control_icu		8	0.0
+Control_Participant20	goblet_cells	ifn_gamma	20	0.13914131661339496	control_icu		8	0.0
+Control_Participant21	goblet_cells	ifn_gamma	15	0.14638656612583986	control_icu		8	0.0
+Control_Participant3	goblet_cells	ifn_gamma	39	0.12523393285231427	control		0	0.0
+Control_Participant4	goblet_cells	ifn_gamma	45	0.16170785963215284	control		0	0.0
+Control_Participant5	goblet_cells	ifn_gamma	37	0.12336060460457543	control		0	0.0
+Control_Participant6	goblet_cells	ifn_gamma	25	0.13971724109745665	control		0	0.0
+Control_Participant8	goblet_cells	ifn_gamma	12	0.046630942846838	control		0	0.37836190417272747
+Control_Participant9	goblet_cells	ifn_gamma	58	0.06967450299277622	control		0	0.0
+COVID19_Participant13	squamous_cells	ifn_alpha	35	0.1709486957495249	severe	1.0	8	1.5797204307827162
+COVID19_Participant15	squamous_cells	ifn_alpha	18	0.15271442542180164	severe	1.0	8	0.0
+COVID19_Participant19	squamous_cells	ifn_alpha	63	0.15838794604964396	severe	1.0	8	0.0
+COVID19_Participant2	squamous_cells	ifn_alpha	23	0.1926125806283203	severe	1.0	8	0.7793369653332218
+COVID19_Participant20	squamous_cells	ifn_alpha	83	0.12364948672569724	severe	1.0	7	2.78795790605285
+COVID19_Participant22	squamous_cells	ifn_alpha	23	0.12757734847627172	mild	0.0	5	0.21280027376949945
+COVID19_Participant23	squamous_cells	ifn_alpha	20	0.2855144592031127	severe	1.0	8	3.5751971331065886
+COVID19_Participant25	squamous_cells	ifn_alpha	14	0.23149564447095025	mild	0.0	4	4.137629475987748
+COVID19_Participant26	squamous_cells	ifn_alpha	253	0.12828597935371044	severe	1.0	8	3.4044719082737163
+COVID19_Participant28	squamous_cells	ifn_alpha	38	0.18039595346605994	severe	1.0	8	3.975625777800904
+COVID19_Participant3	squamous_cells	ifn_alpha	34	0.09676295525197638	severe	1.0	7	0.0
+COVID19_Participant30	squamous_cells	ifn_alpha	98	0.03852275844270757	severe	1.0	8	4.792956387723007
+COVID19_Participant32	squamous_cells	ifn_alpha	18	0.128547778166072	severe	1.0	7	0.35837870947676065
+COVID19_Participant35	squamous_cells	ifn_alpha	15	0.07931950929927775	mild	0.0	1	0.0
+COVID19_Participant36	squamous_cells	ifn_alpha	64	0.11625350831630646	mild	0.0	1	0.0
+COVID19_Participant37	squamous_cells	ifn_alpha	123	0.24827995210597256	mild	0.0	1	0.0
+COVID19_Participant39	squamous_cells	ifn_alpha	165	0.1738819895942448	mild	0.0	1	0.0
+COVID19_Participant4	squamous_cells	ifn_alpha	432	0.09446305291517042	severe	1.0	8	0.17823631380772267
+COVID19_Participant40	squamous_cells	ifn_alpha	213	0.04920054185076751	mild	0.0	3	0.0
+COVID19_Participant7	squamous_cells	ifn_alpha	25	0.1367396968537576	mild	0.0	3	0.8748195217555503
+COVID19_Participant8	squamous_cells	ifn_alpha	84	0.22224851187661274	mild	0.0	4	0.0
+Control_Participant1	squamous_cells	ifn_alpha	173	0.059005636543491315	control		0	0.0
+Control_Participant10	squamous_cells	ifn_alpha	18	0.08337291932691682	control		0	0.0
+Control_Participant11	squamous_cells	ifn_alpha	17	0.1063886443910188	control		0	0.0
+Control_Participant13	squamous_cells	ifn_alpha	27	-0.0011035688195718063	control		0	0.0
+Control_Participant14	squamous_cells	ifn_alpha	26	0.07359366086166311	control		0	0.0
+Control_Participant16	squamous_cells	ifn_alpha	740	0.21368711134861693	control_icu		8	0.0
+Control_Participant17	squamous_cells	ifn_alpha	11	0.1532086944110427	control_icu		8	0.0
+Control_Participant18	squamous_cells	ifn_alpha	693	0.05849758157931755	control_icu		8	0.0
+Control_Participant20	squamous_cells	ifn_alpha	175	0.09646023995318488	control_icu		8	0.0
+Control_Participant21	squamous_cells	ifn_alpha	30	0.0969544815297208	control_icu		8	0.0
+Control_Participant3	squamous_cells	ifn_alpha	43	0.09486689518187598	control		0	0.0
+Control_Participant4	squamous_cells	ifn_alpha	65	0.1143854521084126	control		0	0.0
+Control_Participant5	squamous_cells	ifn_alpha	20	0.04264688954120528	control		0	0.0
+Control_Participant7	squamous_cells	ifn_alpha	15	0.08958142899476626	control		0	0.0
+Control_Participant8	squamous_cells	ifn_alpha	22	0.14008383111541545	control		0	0.37836190417272747
+Control_Participant9	squamous_cells	ifn_alpha	14	0.028777376524957436	control		0	0.0
+COVID19_Participant13	squamous_cells	ifn_gamma	35	0.16712617129310323	severe	1.0	8	1.5797204307827162
+COVID19_Participant15	squamous_cells	ifn_gamma	18	0.1484098946968181	severe	1.0	8	0.0
+COVID19_Participant19	squamous_cells	ifn_gamma	63	0.1691566885750623	severe	1.0	8	0.0
+COVID19_Participant2	squamous_cells	ifn_gamma	23	0.16382640536651688	severe	1.0	8	0.7793369653332218
+COVID19_Participant20	squamous_cells	ifn_gamma	83	0.1371854634472988	severe	1.0	7	2.78795790605285
+COVID19_Participant22	squamous_cells	ifn_gamma	23	0.12114554232190224	mild	0.0	5	0.21280027376949945
+COVID19_Participant23	squamous_cells	ifn_gamma	20	0.21354776953990826	severe	1.0	8	3.5751971331065886
+COVID19_Participant25	squamous_cells	ifn_gamma	14	0.17063062852889674	mild	0.0	4	4.137629475987748
+COVID19_Participant26	squamous_cells	ifn_gamma	253	0.12296873809136054	severe	1.0	8	3.4044719082737163
+COVID19_Participant28	squamous_cells	ifn_gamma	38	0.17771875937468315	severe	1.0	8	3.975625777800904
+COVID19_Participant3	squamous_cells	ifn_gamma	34	0.08441638295270687	severe	1.0	7	0.0
+COVID19_Participant30	squamous_cells	ifn_gamma	98	0.04837326264512235	severe	1.0	8	4.792956387723007
+COVID19_Participant32	squamous_cells	ifn_gamma	18	0.12967067003894617	severe	1.0	7	0.35837870947676065
+COVID19_Participant35	squamous_cells	ifn_gamma	15	0.08487272402690828	mild	0.0	1	0.0
+COVID19_Participant36	squamous_cells	ifn_gamma	64	0.11492892999780183	mild	0.0	1	0.0
+COVID19_Participant37	squamous_cells	ifn_gamma	123	0.209545923230741	mild	0.0	1	0.0
+COVID19_Participant39	squamous_cells	ifn_gamma	165	0.15466277017236021	mild	0.0	1	0.0
+COVID19_Participant4	squamous_cells	ifn_gamma	432	0.10339284645632399	severe	1.0	8	0.17823631380772267
+COVID19_Participant40	squamous_cells	ifn_gamma	213	0.07728045110219922	mild	0.0	3	0.0
+COVID19_Participant7	squamous_cells	ifn_gamma	25	0.1576071504507289	mild	0.0	3	0.8748195217555503
+COVID19_Participant8	squamous_cells	ifn_gamma	84	0.18426412776731654	mild	0.0	4	0.0
+Control_Participant1	squamous_cells	ifn_gamma	173	0.07489648680894227	control		0	0.0
+Control_Participant10	squamous_cells	ifn_gamma	18	0.11127657199954916	control		0	0.0
+Control_Participant11	squamous_cells	ifn_gamma	17	0.10732172604892926	control		0	0.0
+Control_Participant13	squamous_cells	ifn_gamma	27	0.038783793270054545	control		0	0.0
+Control_Participant14	squamous_cells	ifn_gamma	26	0.10099104261380622	control		0	0.0
+Control_Participant16	squamous_cells	ifn_gamma	740	0.20133499328559645	control_icu		8	0.0
+Control_Participant17	squamous_cells	ifn_gamma	11	0.16947170533462586	control_icu		8	0.0
+Control_Participant18	squamous_cells	ifn_gamma	693	0.06191988264463094	control_icu		8	0.0
+Control_Participant20	squamous_cells	ifn_gamma	175	0.09027027812003519	control_icu		8	0.0
+Control_Participant21	squamous_cells	ifn_gamma	30	0.13749729680831668	control_icu		8	0.0
+Control_Participant3	squamous_cells	ifn_gamma	43	0.10914225621018411	control		0	0.0
+Control_Participant4	squamous_cells	ifn_gamma	65	0.14255478774325775	control		0	0.0
+Control_Participant5	squamous_cells	ifn_gamma	20	0.06559032690285035	control		0	0.0
+Control_Participant7	squamous_cells	ifn_gamma	15	0.08896411062086988	control		0	0.0
+Control_Participant8	squamous_cells	ifn_gamma	22	0.12870913514518534	control		0	0.37836190417272747
+Control_Participant9	squamous_cells	ifn_gamma	14	0.06072571904617268	control		0	0.0
+COVID19_Participant11	t_cells	ifn_alpha	15	0.12169518812873133	mild	0.0	5	0.0
+COVID19_Participant13	t_cells	ifn_alpha	159	0.10718067299841368	severe	1.0	8	1.5797204307827162
+COVID19_Participant15	t_cells	ifn_alpha	35	0.12656962062480137	severe	1.0	8	0.0
+COVID19_Participant17	t_cells	ifn_alpha	12	0.12560412032140802	severe	1.0	8	0.6651500764593764
+COVID19_Participant19	t_cells	ifn_alpha	13	0.18608990690199434	severe	1.0	8	0.0
+COVID19_Participant20	t_cells	ifn_alpha	54	0.1173082617557269	severe	1.0	7	2.78795790605285
+COVID19_Participant28	t_cells	ifn_alpha	19	0.22254683136487663	severe	1.0	8	3.975625777800904
+COVID19_Participant29	t_cells	ifn_alpha	13	0.3153736348077721	mild	0.0	4	3.613096808473882
+COVID19_Participant31	t_cells	ifn_alpha	44	0.1572589080858384	severe	1.0	6	0.86712184854117
+COVID19_Participant32	t_cells	ifn_alpha	32	0.14702790124166581	severe	1.0	7	0.35837870947676065
+COVID19_Participant35	t_cells	ifn_alpha	12	0.15562745171863654	mild	0.0	1	0.0
+COVID19_Participant37	t_cells	ifn_alpha	114	0.37338421266799166	mild	0.0	1	0.0
+COVID19_Participant39	t_cells	ifn_alpha	104	0.24243298901902788	mild	0.0	1	0.0
+COVID19_Participant40	t_cells	ifn_alpha	67	0.12617750867402774	mild	0.0	3	0.0
+COVID19_Participant5	t_cells	ifn_alpha	17	0.20609434352174977	mild	0.0	5	0.0
+COVID19_Participant7	t_cells	ifn_alpha	34	0.14293424319468143	mild	0.0	3	0.8748195217555503
+COVID19_Participant8	t_cells	ifn_alpha	112	0.2178926076540478	mild	0.0	4	0.0
+Control_Participant1	t_cells	ifn_alpha	57	0.12121982116235314	control		0	0.0
+Control_Participant10	t_cells	ifn_alpha	114	0.1628528332219792	control		0	0.0
+Control_Participant11	t_cells	ifn_alpha	27	0.13733523751976187	control		0	0.0
+Control_Participant17	t_cells	ifn_alpha	52	0.40263208622883606	control_icu		8	0.0
+Control_Participant20	t_cells	ifn_alpha	10	0.1748175169014213	control_icu		8	0.0
+Control_Participant21	t_cells	ifn_alpha	38	0.14455693441683048	control_icu		8	0.0
+Control_Participant3	t_cells	ifn_alpha	19	0.1640313315665672	control		0	0.0
+Control_Participant4	t_cells	ifn_alpha	37	0.0892088484875009	control		0	0.0
+Control_Participant5	t_cells	ifn_alpha	56	0.1124861590155172	control		0	0.0
+Control_Participant7	t_cells	ifn_alpha	15	0.11781515637749942	control		0	0.0
+COVID19_Participant11	t_cells	ifn_gamma	15	0.10838935825648724	mild	0.0	5	0.0
+COVID19_Participant13	t_cells	ifn_gamma	159	0.1394742607471585	severe	1.0	8	1.5797204307827162
+COVID19_Participant15	t_cells	ifn_gamma	35	0.11572316196369416	severe	1.0	8	0.0
+COVID19_Participant17	t_cells	ifn_gamma	12	0.13609368053525353	severe	1.0	8	0.6651500764593764
+COVID19_Participant19	t_cells	ifn_gamma	13	0.18091308326375316	severe	1.0	8	0.0
+COVID19_Participant20	t_cells	ifn_gamma	54	0.14308471697814837	severe	1.0	7	2.78795790605285
+COVID19_Participant28	t_cells	ifn_gamma	19	0.25406712593648256	severe	1.0	8	3.975625777800904
+COVID19_Participant29	t_cells	ifn_gamma	13	0.28091825237640966	mild	0.0	4	3.613096808473882
+COVID19_Participant31	t_cells	ifn_gamma	44	0.1968856761414078	severe	1.0	6	0.86712184854117
+COVID19_Participant32	t_cells	ifn_gamma	32	0.16781210388325704	severe	1.0	7	0.35837870947676065
+COVID19_Participant35	t_cells	ifn_gamma	12	0.18523076022731377	mild	0.0	1	0.0
+COVID19_Participant37	t_cells	ifn_gamma	114	0.35714627363643053	mild	0.0	1	0.0
+COVID19_Participant39	t_cells	ifn_gamma	104	0.2530001169018578	mild	0.0	1	0.0
+COVID19_Participant40	t_cells	ifn_gamma	67	0.18833744203815667	mild	0.0	3	0.0
+COVID19_Participant5	t_cells	ifn_gamma	17	0.19579592887069508	mild	0.0	5	0.0
+COVID19_Participant7	t_cells	ifn_gamma	34	0.17978840682754108	mild	0.0	3	0.8748195217555503
+COVID19_Participant8	t_cells	ifn_gamma	112	0.2200153299818603	mild	0.0	4	0.0
+Control_Participant1	t_cells	ifn_gamma	57	0.1548008624982121	control		0	0.0
+Control_Participant10	t_cells	ifn_gamma	114	0.1836522453790536	control		0	0.0
+Control_Participant11	t_cells	ifn_gamma	27	0.15061798280591607	control		0	0.0
+Control_Participant17	t_cells	ifn_gamma	52	0.35927856662675595	control_icu		8	0.0
+Control_Participant20	t_cells	ifn_gamma	10	0.21078281147308	control_icu		8	0.0
+Control_Participant21	t_cells	ifn_gamma	38	0.19651612221489353	control_icu		8	0.0
+Control_Participant3	t_cells	ifn_gamma	19	0.1907459681800885	control		0	0.0
+Control_Participant4	t_cells	ifn_gamma	37	0.12408326051930606	control		0	0.0
+Control_Participant5	t_cells	ifn_gamma	56	0.1486527062135312	control		0	0.0
+Control_Participant7	t_cells	ifn_gamma	15	0.09648262067875873	control		0	0.0
