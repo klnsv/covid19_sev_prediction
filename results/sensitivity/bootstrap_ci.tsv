@@ -1,0 +1,5 @@
+pair	auroc_repeat_averaged_oof	ci95_low	ci95_high	n_boot
+comp/rf	0.8537	0.6848	0.9836	2000
+comp/logreg	0.7619	0.5812	0.9231	2000
+pb_all/logreg	0.7959	0.6274	0.9394	2000
+comb/rf	0.8605	0.7083	0.9800	2000

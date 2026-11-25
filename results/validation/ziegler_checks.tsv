@@ -1,0 +1,60 @@
+claim	check	cell_type	n	our_result	pvalue	qvalue	verdict	source
+1	ciliated_cells proportion, mild vs severe (C6)	ciliated_cells	14 mild / 21 severe	median 0.382 mild vs 0.116 severe (higher_in_mild)	0.01927	0.1416	consistent, not significant	composition_tests.tsv
+1	secretory_cells proportion, mild vs severe (C6)	secretory_cells	14 mild / 21 severe	median 0.037 mild vs 0.110 severe (higher_in_severe)	0.07163	0.174	consistent, not significant	composition_tests.tsv
+2	deuterosomal_cells proportion, control vs COVID (C6)	deuterosomal_cells	15 control / 35 COVID	median control 0.003, mild 0.012, severe 0.017 (higher_in_covid)	0.001113	0.006309	supported	composition_tests.tsv
+2	developing_ciliated_cells proportion, control vs COVID (C6)	developing_ciliated_cells	15 control / 35 COVID	median control 0.015, mild 0.011, severe 0.044 (higher_in_covid)	0.2116	0.4498	consistent, not significant	composition_tests.tsv
+3	Gini-Simpson diversity of epithelial types, control vs COVID	epithelial	15 control / 35 COVID	median 0.540 control vs 0.625 COVID	0.01675		supported	C1 (computed here)
+4	ACE2: highest mean expression by coarse type	all	32,588 cells	Enteroendocrine 0.085, Goblet 0.078, Secretory 0.048			descriptive	C1 (computed here)
+4	TMPRSS2: highest mean expression by coarse type	all	32,588 cells	Squamous 1.075, Ionocytes 0.471, Ciliated 0.452			descriptive	C1 (computed here)
+4	CTSL: highest mean expression by coarse type	all	32,588 cells	Macrophages 1.699, Mast 0.949, Dendritic 0.580			descriptive	C1 (computed here)
+4	FURIN: highest mean expression by coarse type	all	32,588 cells	Dendritic 0.293, Ionocytes 0.198, Squamous 0.185			descriptive	C1 (computed here)
+5	IFN-responsive ciliated cells, % of epithelial, mild vs control	ciliated (detailed)	14 mild / 15 control	median 10.4% mild vs 0.4% control	0.0001947		supported	C1 (computed here)
+5	IFN-responsive ciliated cells, % of epithelial, mild vs severe	ciliated (detailed)	14 mild / 21 severe	median 10.4% mild vs 0.8% severe	0.005289		supported	C1 (computed here)
+6	GSEA Hallmark IFN-alpha response, severe_vs_mild	ciliated_cells	see de_summary.tsv	NES -2.83	0	0	supported	enrichment_gsea.tsv
+6	GSEA Hallmark IFN-alpha response, severe_vs_mild	all	see de_summary.tsv	NES -2.52	0	0	supported	enrichment_gsea.tsv
+6	GSEA Hallmark IFN-alpha response, covid_vs_control	ciliated_cells	see de_summary.tsv	NES +3.64	0	0	supported	enrichment_gsea.tsv
+6	GSEA Hallmark IFN-alpha response, covid_vs_control	all	see de_summary.tsv	NES +3.54	0	0	supported	enrichment_gsea.tsv
+6	IFI27 pseudobulk DE severe vs mild	ciliated_cells	16 severe / 14 mild	log2FC -0.70	0.02907	0.3385	consistent, not significant	de_ciliated_cells_severe_vs_mild.tsv
+6	IFIT1 pseudobulk DE severe vs mild	ciliated_cells	16 severe / 14 mild	log2FC -0.62	0.2602	0.7056	consistent, not significant	de_ciliated_cells_severe_vs_mild.tsv
+6	IFI6 pseudobulk DE severe vs mild	ciliated_cells	16 severe / 14 mild	log2FC -0.35	0.5014	0.8391	consistent, not significant	de_ciliated_cells_severe_vs_mild.tsv
+6	IFITM3 pseudobulk DE severe vs mild	ciliated_cells	16 severe / 14 mild	log2FC -0.89	0.05606	0.4069	consistent, not significant	de_ciliated_cells_severe_vs_mild.tsv
+6	GBP3 pseudobulk DE severe vs mild	ciliated_cells	16 severe / 14 mild	log2FC -0.22	0.4076	0.7997	consistent, not significant	de_ciliated_cells_severe_vs_mild.tsv
+6	STAT1 pseudobulk DE severe vs mild	ciliated_cells	16 severe / 14 mild	log2FC -1.09	0.0008124	0.09004	consistent, not significant	de_ciliated_cells_severe_vs_mild.tsv
+6	MX1 pseudobulk DE severe vs mild	ciliated_cells	16 severe / 14 mild	log2FC -1.01	0.01102	0.2375	consistent, not significant	de_ciliated_cells_severe_vs_mild.tsv
+6	HLA-A pseudobulk DE severe vs mild	ciliated_cells	16 severe / 14 mild	log2FC -0.30	0.3058	0.7388	consistent, not significant	de_ciliated_cells_severe_vs_mild.tsv
+6	HLA-C pseudobulk DE severe vs mild	ciliated_cells	16 severe / 14 mild	log2FC -0.58	0.02062	0.3003	consistent, not significant	de_ciliated_cells_severe_vs_mild.tsv
+6	HLA-DRA pseudobulk DE severe vs mild	ciliated_cells	16 severe / 14 mild	log2FC -0.44	0.2082	0.6594	consistent, not significant	de_ciliated_cells_severe_vs_mild.tsv
+6	step 06 ISG score (ifn_alpha), mild vs severe	epithelial	14 mild / 21 severe	median score 0.188 mild vs 0.114 severe	0.07163		consistent, not significant	isg_tests.tsv
+6	step 06 ISG score (ifn_gamma), mild vs severe	epithelial	14 mild / 21 severe	median score 0.156 mild vs 0.109 severe	0.09556		consistent, not significant	isg_tests.tsv
+6	step 06 ISG score (ifn_alpha), mild vs severe	ciliated_cells	14 mild / 16 severe	median score 0.197 mild vs 0.096 severe	0.0845		consistent, not significant	isg_tests.tsv
+6	step 06 ISG score (ifn_gamma), mild vs severe	ciliated_cells	14 mild / 16 severe	median score 0.171 mild vs 0.092 severe	0.05323		consistent, not significant	isg_tests.tsv
+7	GSEA Hallmark IFN-alpha response, severe vs mild (all goblet, not only MUC5AC-high)	goblet_cells	12 severe / 9 mild	NES -2.17	0	0.0004712	supported	enrichment_gsea.tsv
+8	IFNAR1 pseudobulk DE severe vs mild (expect no significant loss)	ciliated_cells	16 severe / 14 mild	base mean 20, log2FC -0.22, padj 0.67	0.2223	0.6667	supported	de_ciliated_cells_severe_vs_mild.tsv
+8	IFNAR2 pseudobulk DE severe vs mild (expect no significant loss)	ciliated_cells	16 severe / 14 mild	base mean 8, log2FC +0.09, padj nan	0.7102		supported	de_ciliated_cells_severe_vs_mild.tsv
+8	IFNGR1 pseudobulk DE severe vs mild (expect no significant loss)	ciliated_cells	16 severe / 14 mild	base mean 11, log2FC -0.03, padj nan	0.9079		supported	de_ciliated_cells_severe_vs_mild.tsv
+9	S100A8 pseudobulk DE severe vs mild	all	21 severe / 14 mild	log2FC +1.97	0.01408	0.134	consistent, not significant	de_all_severe_vs_mild.tsv
+9	S100A8 pseudobulk DE severe vs mild	secretory_cells	15 severe / 9 mild	log2FC +1.83	0.02603	0.2555	consistent, not significant	de_secretory_cells_severe_vs_mild.tsv
+9	S100A8 pseudobulk DE severe vs mild	squamous_cells	12 severe / 9 mild	log2FC +0.80	0.1936	0.6367	consistent, not significant	de_squamous_cells_severe_vs_mild.tsv
+9	S100A9 pseudobulk DE severe vs mild	all	21 severe / 14 mild	log2FC +1.93	0.003611	0.07615	consistent, not significant	de_all_severe_vs_mild.tsv
+9	S100A9 pseudobulk DE severe vs mild	secretory_cells	15 severe / 9 mild	log2FC +1.17	0.004888	0.1296	consistent, not significant	de_secretory_cells_severe_vs_mild.tsv
+9	S100A9 pseudobulk DE severe vs mild	squamous_cells	12 severe / 9 mild	log2FC +0.85	0.08744	0.49	consistent, not significant	de_squamous_cells_severe_vs_mild.tsv
+9	HSPA8 pseudobulk DE severe vs mild	all	21 severe / 14 mild	log2FC -0.11	0.6186	0.8124	not supported (opposite, n.s.)	de_all_severe_vs_mild.tsv
+9	HSPA8 pseudobulk DE severe vs mild	ciliated_cells	16 severe / 14 mild	log2FC +0.26	0.2904	0.7303	consistent, not significant	de_ciliated_cells_severe_vs_mild.tsv
+9	HSPA8 pseudobulk DE severe vs mild	secretory_cells	15 severe / 9 mild	log2FC -0.40	0.2047	0.5898	not supported (opposite, n.s.)	de_secretory_cells_severe_vs_mild.tsv
+9	HSPA8 pseudobulk DE severe vs mild	squamous_cells	12 severe / 9 mild	log2FC +0.05	0.8768	0.9678	consistent, not significant	de_squamous_cells_severe_vs_mild.tsv
+9	HSPA1A pseudobulk DE severe vs mild	all	21 severe / 14 mild	log2FC +0.37	0.2594	0.528	consistent, not significant	de_all_severe_vs_mild.tsv
+9	HSPA1A pseudobulk DE severe vs mild	ciliated_cells	16 severe / 14 mild	log2FC +0.16	0.5894	0.8757	consistent, not significant	de_ciliated_cells_severe_vs_mild.tsv
+9	HSPA1A pseudobulk DE severe vs mild	secretory_cells	15 severe / 9 mild	log2FC -0.47	0.2254	0.61	not supported (opposite, n.s.)	de_secretory_cells_severe_vs_mild.tsv
+9	HSPA1A pseudobulk DE severe vs mild	squamous_cells	12 severe / 9 mild	log2FC +0.45	0.2696	0.6949	consistent, not significant	de_squamous_cells_severe_vs_mild.tsv
+9	DUSP1 pseudobulk DE severe vs mild	all	21 severe / 14 mild	log2FC +0.12	0.7142	0.8649	consistent, not significant	de_all_severe_vs_mild.tsv
+9	DUSP1 pseudobulk DE severe vs mild	ciliated_cells	16 severe / 14 mild	log2FC -0.06	0.8547	0.9623	not supported (opposite, n.s.)	de_ciliated_cells_severe_vs_mild.tsv
+9	DUSP1 pseudobulk DE severe vs mild	secretory_cells	15 severe / 9 mild	log2FC -0.52	0.2695	0.6459	not supported (opposite, n.s.)	de_secretory_cells_severe_vs_mild.tsv
+9	DUSP1 pseudobulk DE severe vs mild	squamous_cells	12 severe / 9 mild	log2FC -0.30	0.3626	0.7701	not supported (opposite, n.s.)	de_squamous_cells_severe_vs_mild.tsv
+10	steroid effect on ISGs			no steroid field in the data			not testable	CONTEXT.md section 2
+11	viral UMIs per million, mild vs severe	whole sample	14 mild / 21 severe	median 0.0 mild vs 5.0 severe; geometric mean(+1) 7.5 vs 34.8	0.1674		consistent, not significant	C1 (computed here)
+12	secretory cells % of epithelial vs log10 viral load (Spearman)	secretory cells	35 COVID donors	rho +0.12	0.4801		consistent, not significant	C1 (computed here)
+12	FOXJ1 high ciliated cells % of epithelial vs log10 viral load (Spearman)	FOXJ1 high ciliated cells	35 COVID donors	rho -0.25	0.1509		consistent, not significant	C1 (computed here)
+13	SARS-CoV-2 RNA+ cells by group	all	415 RNA+ cells	control 1, convalescent 2, mild 150, severe 262			supported	C1 (computed here)
+14	most frequent detailed types among RNA+ cells	all	415 RNA+ cells	Interferon Responsive Ciliated Cells 82, AZGP1 high Goblet Cells 52, Developing Ciliated Cells 41, KRT24 KRT13 high Secretory Cells 34, CCL5 high Squamous Cells 32			descriptive	C1 (computed here)
+15	antiviral genes, RNA+ vs bystander cells (exploratory, no p-value)	pairs with >= 5 RNA+	12 donor x cell-type pairs	7 of 12 donor x cell-type pairs higher in RNA+ cells; median difference +0.009 (mean log-norm of 8 antiviral genes)			descriptive	C1 (computed here)
+16	macrophage proportion, mild vs severe (C6)	macrophages	14 mild / 21 severe	median 0.0010 mild vs 0.0152 severe (higher_in_severe); only 1 mild / 6 severe donors have >= 10 macrophages	0.01927	0.1416	consistent, not significant (proportion only)	composition_tests.tsv
