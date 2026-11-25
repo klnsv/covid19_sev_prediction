@@ -1,0 +1,37 @@
+# --- Python / Jupyter ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+notebooks/scratch/
+
+# --- Data ---
+# Raw data is shared through the GitHub Release "data-v1", never through git.
+data/raw/*
+!data/raw/.gitkeep
+# Processed data is always rebuilt by the numbered scripts, never shared by hand.
+data/processed/*
+!data/processed/.gitkeep
+# data/external/ IS committed (small, dated snapshots; every file < 50 MB).
+# Large single-cell objects are never committed, wherever they are.
+*.h5ad
+*.loom
+*.rds
+
+# --- Results ---
+# Small tables (.tsv) and figures (.png/.pdf) in results/ ARE committed.
+# Large intermediates are not:
+results/**/*.pkl
+results/**/*.npy
+results/**/*.joblib
+
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# --- Claude Code local settings ---
+.claude/settings.local.json
