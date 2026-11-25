@@ -1,0 +1,125 @@
+cells_per_donor	draw	pair	auroc_median	perm_p
+50.0000	0	comp/rf	0.7134	0.0697
+50.0000	0	comp/logreg	0.6735	0.1095
+50.0000	0	pb_all/logreg	0.7517	0.0100
+50.0000	0	comb/rf	0.7262	0.0249
+50.0000	1	comp/rf	0.7491	
+50.0000	1	comp/logreg	0.7262	
+50.0000	1	pb_all/logreg	0.7177	
+50.0000	1	comb/rf	0.7347	
+50.0000	2	comp/rf	0.5799	
+50.0000	2	comp/logreg	0.6871	
+50.0000	2	pb_all/logreg	0.7041	
+50.0000	2	comb/rf	0.6531	
+50.0000	3	comp/rf	0.6862	
+50.0000	3	comp/logreg	0.6088	
+50.0000	3	pb_all/logreg	0.6531	
+50.0000	3	comb/rf	0.7253	
+50.0000	4	comp/rf	0.5561	
+50.0000	4	comp/logreg	0.6122	
+50.0000	4	pb_all/logreg	0.6888	
+50.0000	4	comb/rf	0.6497	
+50.0000	5	comp/rf	0.6344	
+50.0000	5	comp/logreg	0.5629	
+50.0000	5	pb_all/logreg	0.7517	
+50.0000	5	comb/rf	0.7177	
+50.0000	6	comp/rf	0.6182	
+50.0000	6	comp/logreg	0.6973	
+50.0000	6	pb_all/logreg	0.6667	
+50.0000	6	comb/rf	0.6786	
+50.0000	7	comp/rf	0.7228	
+50.0000	7	comp/logreg	0.7092	
+50.0000	7	pb_all/logreg	0.8010	
+50.0000	7	comb/rf	0.7491	
+50.0000	8	comp/rf	0.6497	
+50.0000	8	comp/logreg	0.7704	
+50.0000	8	pb_all/logreg	0.7109	
+50.0000	8	comb/rf	0.7466	
+50.0000	9	comp/rf	0.5740	
+50.0000	9	comp/logreg	0.7007	
+50.0000	9	pb_all/logreg	0.6820	
+50.0000	9	comb/rf	0.6548	
+100.0000	0	comp/rf	0.8486	0.0100
+100.0000	0	comp/logreg	0.7687	0.0199
+100.0000	0	pb_all/logreg	0.7262	0.0199
+100.0000	0	comb/rf	0.8529	0.0100
+100.0000	1	comp/rf	0.7041	
+100.0000	1	comp/logreg	0.7823	
+100.0000	1	pb_all/logreg	0.7143	
+100.0000	1	comb/rf	0.7415	
+100.0000	2	comp/rf	0.6981	
+100.0000	2	comp/logreg	0.7194	
+100.0000	2	pb_all/logreg	0.7007	
+100.0000	2	comb/rf	0.7611	
+100.0000	3	comp/rf	0.7959	
+100.0000	3	comp/logreg	0.6837	
+100.0000	3	pb_all/logreg	0.7806	
+100.0000	3	comb/rf	0.8172	
+100.0000	4	comp/rf	0.7857	
+100.0000	4	comp/logreg	0.7806	
+100.0000	4	pb_all/logreg	0.7534	
+100.0000	4	comb/rf	0.8265	
+100.0000	5	comp/rf	0.6241	
+100.0000	5	comp/logreg	0.6820	
+100.0000	5	pb_all/logreg	0.6752	
+100.0000	5	comb/rf	0.6173	
+100.0000	6	comp/rf	0.6735	
+100.0000	6	comp/logreg	0.6327	
+100.0000	6	pb_all/logreg	0.6888	
+100.0000	6	comb/rf	0.7389	
+100.0000	7	comp/rf	0.6641	
+100.0000	7	comp/logreg	0.6718	
+100.0000	7	pb_all/logreg	0.7007	
+100.0000	7	comb/rf	0.7100	
+100.0000	8	comp/rf	0.7134	
+100.0000	8	comp/logreg	0.6837	
+100.0000	8	pb_all/logreg	0.7160	
+100.0000	8	comb/rf	0.7449	
+100.0000	9	comp/rf	0.6539	
+100.0000	9	comp/logreg	0.4949	
+100.0000	9	pb_all/logreg	0.7109	
+100.0000	9	comb/rf	0.7287	
+200.0000	0	comp/rf	0.6675	0.0697
+200.0000	0	comp/logreg	0.6224	0.1393
+200.0000	0	pb_all/logreg	0.7500	0.0249
+200.0000	0	comb/rf	0.7253	0.0398
+200.0000	1	comp/rf	0.6930	
+200.0000	1	comp/logreg	0.7602	
+200.0000	1	pb_all/logreg	0.7874	
+200.0000	1	comb/rf	0.7815	
+200.0000	2	comp/rf	0.6105	
+200.0000	2	comp/logreg	0.5204	
+200.0000	2	pb_all/logreg	0.7228	
+200.0000	2	comb/rf	0.7160	
+200.0000	3	comp/rf	0.7279	
+200.0000	3	comp/logreg	0.7925	
+200.0000	3	pb_all/logreg	0.7041	
+200.0000	3	comb/rf	0.7466	
+200.0000	4	comp/rf	0.6539	
+200.0000	4	comp/logreg	0.6293	
+200.0000	4	pb_all/logreg	0.7619	
+200.0000	4	comb/rf	0.7381	
+200.0000	5	comp/rf	0.7653	
+200.0000	5	comp/logreg	0.7058	
+200.0000	5	pb_all/logreg	0.7483	
+200.0000	5	comb/rf	0.7806	
+200.0000	6	comp/rf	0.7619	
+200.0000	6	comp/logreg	0.6820	
+200.0000	6	pb_all/logreg	0.7636	
+200.0000	6	comb/rf	0.7908	
+200.0000	7	comp/rf	0.6981	
+200.0000	7	comp/logreg	0.7568	
+200.0000	7	pb_all/logreg	0.7959	
+200.0000	7	comb/rf	0.7747	
+200.0000	8	comp/rf	0.7747	
+200.0000	8	comp/logreg	0.7636	
+200.0000	8	pb_all/logreg	0.7126	
+200.0000	8	comb/rf	0.7815	
+200.0000	9	comp/rf	0.6811	
+200.0000	9	comp/logreg	0.7262	
+200.0000	9	pb_all/logreg	0.7245	
+200.0000	9	comb/rf	0.7526	
+10000000.0000	0	comp/rf	0.8325	0.0050
+10000000.0000	0	comp/logreg	0.7398	0.0348
+10000000.0000	0	pb_all/logreg	0.7602	0.0199
+10000000.0000	0	comb/rf	0.8367	0.0050

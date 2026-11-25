@@ -1,0 +1,4 @@
+resolution	n_clusters	ari_vs_ct_coarse	ari_vs_ct_detailed	n_cells
+0.5	15	0.483	0.373	32588
+1.0	20	0.4	0.413	32588
+1.5	26	0.301	0.398	32588

@@ -1,0 +1,92 @@
+axis	setting	n_pos	n_neg	feature_set	model	auroc_median	auroc_min	auroc_max	bal_acc_median	perm_p	top3_celltypes	jaccard_top20_genes_vs_primary	extra_metric	extra_value	extra_p	extra_note
+A	primary (WHO 1-5 vs 6-8)	21	14	comp	rf	0.8325	0.7398	0.9082	0.7976	0.0050	macrophages(+);mitotic_basal_cells(-);t_cells(-)	1.0000				
+A	primary (WHO 1-5 vs 6-8)	21	14	comp	logreg	0.7398	0.6837	0.7857	0.7321	0.0348	macrophages(+);mitotic_basal_cells(-);t_cells(-)	1.0000				
+A	primary (WHO 1-5 vs 6-8)	21	14	pb_all	logreg	0.7602	0.6463	0.8265	0.7143	0.0199	macrophages(+);mitotic_basal_cells(-);t_cells(-)	1.0000				
+A	primary (WHO 1-5 vs 6-8)	21	14	comb	rf	0.8367	0.7602	0.8878	0.7976	0.0050	macrophages(+);mitotic_basal_cells(-);t_cells(-)	1.0000				
+A	WHO <=5 vs >=7 (drop WHO 6)	20	14	comp	rf	0.8223	0.7464	0.8946	0.7625	0.0100	macrophages(+);t_cells(-);mitotic_basal_cells(-)	0.6670				
+A	WHO <=5 vs >=7 (drop WHO 6)	20	14	comp	logreg	0.7464	0.6893	0.8000	0.7375	0.0299	macrophages(+);t_cells(-);mitotic_basal_cells(-)	0.6670				
+A	WHO <=5 vs >=7 (drop WHO 6)	20	14	pb_all	logreg	0.7071	0.5679	0.7786	0.6893	0.0398	macrophages(+);t_cells(-);mitotic_basal_cells(-)	0.6670				
+A	WHO <=5 vs >=7 (drop WHO 6)	20	14	comb	rf	0.8509	0.7500	0.8714	0.7696	0.0050	macrophages(+);t_cells(-);mitotic_basal_cells(-)	0.6670				
+A	WHO <=4 vs 8 (extremes)	16	9	comp	rf	0.9306	0.8333	0.9792	0.8264	0.0050	t_cells(-);mitotic_basal_cells(-);ciliated_cells(-)	0.2500				
+A	WHO <=4 vs 8 (extremes)	16	9	comp	logreg	0.9167	0.8542	0.9861	0.7951	0.0050	t_cells(-);mitotic_basal_cells(-);ciliated_cells(-)	0.2500				
+A	WHO <=4 vs 8 (extremes)	16	9	pb_all	logreg	0.8993	0.8542	0.9375	0.8021	0.0050	t_cells(-);mitotic_basal_cells(-);ciliated_cells(-)	0.2500				
+A	WHO <=4 vs 8 (extremes)	16	9	comb	rf	0.9340	0.8681	0.9653	0.8576	0.0050	t_cells(-);mitotic_basal_cells(-);ciliated_cells(-)	0.2500				
+A	ordinal: Spearman(OOF score, WHO peak)	21	14	comp	rf								spearman_rho	0.7072	0.0000	
+A	ordinal: Spearman(OOF score, WHO peak)	21	14	comp	logreg								spearman_rho	0.5548	0.0005	
+A	ordinal: Spearman(OOF score, WHO peak)	21	14	pb_all	logreg								spearman_rho	0.6173	0.0001	
+A	ordinal: Spearman(OOF score, WHO peak)	21	14	comb	rf								spearman_rho	0.7654	0.0000	
+B	ICU controls scored by the mild-vs-severe model	21	6	comp	rf	0.7222							frac_icu_called_severe	0.5000	0.8500	
+B	healthy controls scored by the mild-vs-severe model	21	15	comp	rf								frac_healthy_called_severe	0.4000		
+B	ICU controls scored by the mild-vs-severe model	21	6	comp	logreg	0.4524							frac_icu_called_severe	0.5000	0.1537	
+B	healthy controls scored by the mild-vs-severe model	21	15	comp	logreg								frac_healthy_called_severe	0.4000		
+B	ICU controls scored by the mild-vs-severe model	21	6	pb_all	logreg	0.6429							frac_icu_called_severe	0.3333	0.2672	
+B	healthy controls scored by the mild-vs-severe model	21	15	pb_all	logreg								frac_healthy_called_severe	0.2000		
+B	ICU controls scored by the mild-vs-severe model	21	6	comb	rf	0.7540							frac_icu_called_severe	0.3333	0.7910	
+B	healthy controls scored by the mild-vs-severe model	21	15	comb	rf								frac_healthy_called_severe	0.4000		
+C	pb_all with 500 in-fold HVGs (primary 2000)	21	14	pb_all	logreg	0.7568	0.6905	0.8469	0.7321	0.0299						
+C	pb_all with 1000 in-fold HVGs (primary 2000)	21	14	pb_all	logreg	0.7840	0.6939	0.8503	0.7500	0.0149						
+C	composition over detailed (39) cell types	21	14	comp_detailed	rf	0.6480	0.5731	0.7585	0.6548	0.1592						
+C	composition over detailed (39) cell types	21	14	comp_detailed	logreg	0.7024	0.6088	0.7619	0.7143	0.0597						
+C	pb_ciliated_cells (single cell type)	16	14	pb_ciliated_cells	logreg	0.6161	0.5580	0.6786	0.6138	0.1294						
+C	pb_secretory_cells (single cell type)	15	9	pb_secretory_cells	logreg	0.5778	0.5259	0.6889	0.5944	0.2338						
+C	pb_goblet_cells (single cell type)	12	9	pb_goblet_cells	logreg	0.3380	0.1667	0.4444	0.4167	0.8308						
+C	pb_squamous_cells (single cell type)	12	9	pb_squamous_cells	logreg	0.5417	0.3889	0.6759	0.5278	0.3632						
+C	pb_t_cells (single cell type)	8	9	pb_t_cells	logreg	0.5000	0.4167	0.5694	0.5278	0.3532						
+D	donors with >= 50 cells	20	13	comp	rf	0.8279	0.7769	0.8750	0.7846	0.0100	t_cells(-);macrophages(+);mitotic_basal_cells(-)	0.6000				
+D	donors with >= 50 cells	20	13	comp	logreg	0.7250	0.6231	0.8308	0.6962	0.0746	t_cells(-);macrophages(+);mitotic_basal_cells(-)	0.6000				
+D	donors with >= 50 cells	20	13	pb_all	logreg	0.7904	0.7500	0.8577	0.6971	0.0100	t_cells(-);macrophages(+);mitotic_basal_cells(-)	0.6000				
+D	donors with >= 50 cells	20	13	comb	rf	0.8058	0.7462	0.8692	0.7404	0.0149	t_cells(-);macrophages(+);mitotic_basal_cells(-)	0.6000				
+D	donors with >= 100 cells	17	10	comp	rf	0.7765	0.6794	0.8824	0.7324	0.0348	t_cells(-);macrophages(+);deuterosomal_cells(+)	0.4290				
+D	donors with >= 100 cells	17	10	comp	logreg	0.6853	0.5824	0.7176	0.6485	0.0896	t_cells(-);macrophages(+);deuterosomal_cells(+)	0.4290				
+D	donors with >= 100 cells	17	10	pb_all	logreg	0.7676	0.6588	0.8235	0.6779	0.0348	t_cells(-);macrophages(+);deuterosomal_cells(+)	0.4290				
+D	donors with >= 100 cells	17	10	comb	rf	0.7794	0.7235	0.8294	0.7118	0.0348	t_cells(-);macrophages(+);deuterosomal_cells(+)	0.4290				
+D	exclude bloody-swab donors	19	14	comp	rf	0.8261	0.7519	0.8835	0.7481	0.0149	mitotic_basal_cells(-);macrophages(+);t_cells(-)	0.4810				
+D	exclude bloody-swab donors	19	14	comp	logreg	0.7124	0.6353	0.7669	0.7077	0.0348	mitotic_basal_cells(-);macrophages(+);t_cells(-)	0.4810				
+D	exclude bloody-swab donors	19	14	pb_all	logreg	0.7763	0.6654	0.8233	0.6945	0.0149	mitotic_basal_cells(-);macrophages(+);t_cells(-)	0.4810				
+D	exclude bloody-swab donors	19	14	comb	rf	0.8346	0.7444	0.8985	0.7923	0.0100	mitotic_basal_cells(-);macrophages(+);t_cells(-)	0.4810				
+D	cells with pct_mito < 30% (recomputed)	21	14	comp	rf	0.8291	0.7466	0.8980	0.7619	0.0050	macrophages(+);t_cells(-);ciliated_cells(-)	0.8180				
+D	cells with pct_mito < 30% (recomputed)	21	14	comp	logreg	0.7551	0.6973	0.8027	0.7262	0.0249	macrophages(+);t_cells(-);ciliated_cells(-)	0.8180				
+D	cells with pct_mito < 30% (recomputed)	21	14	pb_all	logreg	0.7415	0.6088	0.8095	0.7024	0.0199	macrophages(+);t_cells(-);ciliated_cells(-)	0.8180				
+D	cells with pct_mito < 30% (recomputed)	21	14	comb	rf	0.8197	0.7636	0.8707	0.7917	0.0100	macrophages(+);t_cells(-);ciliated_cells(-)	0.8180				
+D	cells with pct_mito < 20% (recomputed)	21	14	comp	rf	0.8078	0.7211	0.8912	0.7500	0.0050	macrophages(+);ionocytes(-);t_cells(-)	0.8180				
+D	cells with pct_mito < 20% (recomputed)	21	14	comp	logreg	0.7517	0.7075	0.8163	0.7381	0.0299	macrophages(+);ionocytes(-);t_cells(-)	0.8180				
+D	cells with pct_mito < 20% (recomputed)	21	14	pb_all	logreg	0.7364	0.6259	0.7959	0.7024	0.0348	macrophages(+);ionocytes(-);t_cells(-)	0.8180				
+D	cells with pct_mito < 20% (recomputed)	21	14	comb	rf	0.8282	0.7143	0.8810	0.8095	0.0100	macrophages(+);ionocytes(-);t_cells(-)	0.8180				
+D	pb_ciliated with min 5 cells (primary 10)	20	14	pb_ciliated_cells	logreg	0.6643	0.5464	0.7286	0.6536	0.0547						
+D	pb_ciliated with min 20 cells (primary 10)	13	13	pb_ciliated_cells	logreg	0.5888	0.4142	0.6923	0.5769	0.2388						
+E	downsample to 50 cells per donor (10 draws)	21	14	comp	rf	0.6420	0.5561	0.7491		0.0697						
+E	downsample to 50 cells per donor (10 draws)	21	14	comp	logreg	0.6922	0.5629	0.7704		0.1095						
+E	downsample to 50 cells per donor (10 draws)	21	14	pb_all	logreg	0.7075	0.6531	0.8010		0.0100						
+E	downsample to 50 cells per donor (10 draws)	21	14	comb	rf	0.7215	0.6497	0.7491		0.0249						
+E	downsample to 100 cells per donor (10 draws)	21	14	comp	rf	0.7011	0.6241	0.8486		0.0100						
+E	downsample to 100 cells per donor (10 draws)	21	14	comp	logreg	0.6837	0.4949	0.7823		0.0199						
+E	downsample to 100 cells per donor (10 draws)	21	14	pb_all	logreg	0.7126	0.6752	0.7806		0.0199						
+E	downsample to 100 cells per donor (10 draws)	21	14	comb	rf	0.7432	0.6173	0.8529		0.0100						
+E	downsample to 200 cells per donor (10 draws)	21	14	comp	rf	0.6956	0.6105	0.7747		0.0697						
+E	downsample to 200 cells per donor (10 draws)	21	14	comp	logreg	0.7160	0.5204	0.7925		0.1393						
+E	downsample to 200 cells per donor (10 draws)	21	14	pb_all	logreg	0.7491	0.7041	0.7959		0.0249						
+E	downsample to 200 cells per donor (10 draws)	21	14	comb	rf	0.7636	0.7160	0.7908		0.0398						
+F	leave-one-donor-out influence (min-max over 35)	21	14	comp	rf	0.8223	0.7875	0.8828					most_influential_donor			COVID19_Participant36
+F	patient bootstrap 95% CI of AUROC	21	14	comp	rf	0.8537	0.6848	0.9836								
+F	leave-one-donor-out influence (min-max over 35)	21	14	comp	logreg	0.7436	0.7234	0.8553					most_influential_donor			COVID19_Participant6
+F	patient bootstrap 95% CI of AUROC	21	14	comp	logreg	0.7619	0.5812	0.9231								
+F	leave-one-donor-out influence (min-max over 35)	21	14	pb_all	logreg	0.7393	0.7071	0.8242					most_influential_donor			COVID19_Participant31
+F	patient bootstrap 95% CI of AUROC	21	14	pb_all	logreg	0.7959	0.6274	0.9394								
+F	leave-one-donor-out influence (min-max over 35)	21	14	comb	rf	0.8304	0.7955	0.8911					most_influential_donor			COVID19_Participant14
+F	patient bootstrap 95% CI of AUROC	21	14	comb	rf	0.8605	0.7083	0.9800								
+G	composition + sex + age decade	21	14	comp+covariates	rf	0.8291	0.7143	0.9014	0.7679	0.0050						
+G	sex + age decade only	21	14	covariates	rf	0.7628	0.7313	0.8367	0.7262	0.0249						
+G	composition + sex + age decade	21	14	comp+covariates	logreg	0.7228	0.6633	0.7619	0.7083	0.0498						
+G	sex + age decade only	21	14	covariates	logreg	0.7092	0.6735	0.7313	0.6667	0.0647						
+G	age-stratified permutation (labels shuffled within <60 / >=60)	21	14	comp	rf	0.8325	0.7398	0.9082		0.0050			null_auroc_median	0.5153		
+G	age-stratified permutation (labels shuffled within <60 / >=60)	21	14	comp	logreg	0.7398	0.6837	0.7857		0.0299			null_auroc_median	0.5102		
+G	age-stratified permutation (labels shuffled within <60 / >=60)	21	14	pb_all	logreg	0.7602	0.6463	0.8265		0.0299			null_auroc_median	0.5085		
+G	age-stratified permutation (labels shuffled within <60 / >=60)	21	14	comb	rf	0.8367	0.7602	0.8878		0.0050			null_auroc_median	0.5264		
+G	OOF score vs sex (Mann-Whitney p)	21	14	comp	rf								mwu_p_sex	0.7784		
+G	OOF score vs age decade (Spearman)	21	14	comp	rf								spearman_rho_age	0.4438	0.0076	
+G	OOF score vs sex (Mann-Whitney p)	21	14	comp	logreg								mwu_p_sex	1.0000		
+G	OOF score vs age decade (Spearman)	21	14	comp	logreg								spearman_rho_age	0.4676	0.0046	
+G	OOF score vs sex (Mann-Whitney p)	21	14	pb_all	logreg								mwu_p_sex	0.5185		
+G	OOF score vs age decade (Spearman)	21	14	pb_all	logreg								spearman_rho_age	0.4020	0.0167	
+G	OOF score vs sex (Mann-Whitney p)	21	14	comb	rf								mwu_p_sex	0.6789		
+G	OOF score vs age decade (Spearman)	21	14	comb	rf								spearman_rho_age	0.4738	0.0040	
