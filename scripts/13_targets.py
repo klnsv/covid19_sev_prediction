@@ -1,37 +1,4 @@
-"""Step 13: drug-target prioritisation of the key genes (contract C13, CONTEXT.md 7.4).
 
-Reads:  results/de/key_gene_shortlist.tsv (C9)
-        results/perturb/perturbation_effects.tsv (C11)
-        results/perturb/model_cv_auroc.tsv (step 12)
-        data/processed/external/target_annotations.tsv (C10, step 00)
-        data/external/interactions.tsv (DGIdb, for interaction types)
-Writes: results/targets/target_ranking.tsv (C13, every shortlist gene x cell type, ranked)
-        results/targets/figures/13_target_ranking.png
-
-Meaningful perturbation (CONTEXT.md 7.2), for severe_to_mild at alpha = 1:
-  logreg null_p < 0.05, logreg mean delta P < 0 (moving the gene towards mild lowers
-  predicted severity), the random-forest check has the same sign (delta P <= 0), and
-  the cell type's perturbation model predicts severity (CV AUROC median >= MIN_MODEL_AUROC;
-  perturbing a model at chance level says nothing).
-Directional drugs: DGIdb interactions whose type matches the desired action
-  (inhibit: inhibitor/antagonist/antibody/blocker/negative modulator/inverse agonist;
-  activate: agonist/activator/positive modulator/inducer/potentiator). Untyped links
-  (e.g. pharmacogenomic or text-mined) do not count; the undirected DGIdb counts are kept
-  for transparency (dgidb_n_drugs_any, dgidb_n_approved_any).
-Score (additive, weights below, each component scaled to 0-1 before weighting):
-  druggable        HPA protein class or DGIdb category says druggable         x W_DRUGGABLE
-  directional drug >= 1 DGIdb drug acting in the desired direction             x W_DIRECTIONAL
-  approved         >= 1 such drug is approved                                  x W_APPROVED
-  covid evidence   Open Targets COVID-19 score / max score among candidates    x W_COVID
-  perturbation     |logreg mean delta P| / max among candidates (0 if not
-                   meaningful)                                                 x W_PERTURB
-  safety           broadly expressed (> 10 TPM in >= BROAD_TISSUES GTEx
-                   tissues) subtracts                                          x W_BROAD
-desired_drug_action: up_in_severe -> inhibit, down_in_severe -> activate.
-Ranks are among genes with a meaningful perturbation first; the rest follow (rank NaN).
-
-Run from the repo root: python scripts/13_targets.py
-"""
 import numpy as np
 import pandas as pd
 import matplotlib
