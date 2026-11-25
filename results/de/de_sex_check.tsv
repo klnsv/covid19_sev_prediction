@@ -1,0 +1,11 @@
+ct	n_donors_severe	n_donors_mild	n_sig_primary	n_sig_sex_adjusted	n_sig_both	spearman_log2fc
+all	21	14	275	298	256	0.992
+ciliated_cells	16	14	13	35	13	0.994
+goblet_cells	12	9	0	0	0	0.99
+squamous_cells	12	9	25	29	24	0.983
+secretory_cells	15	9	25	24	15	0.989
+t_cells	8	9	16	16	15	0.99
+developing_ciliated_cells	13	5	0	0	0	0.971
+basal_cells	5	5	2	0	0	0.957
+deuterosomal_cells	8	3	0	4	0	0.985
+ionocytes	4	4	0	0	0	0.957

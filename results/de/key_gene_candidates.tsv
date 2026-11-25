@@ -1,0 +1,203 @@
+gene_id	gene_symbol	ct	direction	log2fc	padj	importance_rank	stability	evidence	in_isg_set
+ENSG00000186832	KRT16	squamous_cells	up_in_severe	2.85516	1.35525e-06	1	0.72	both	False
+ENSG00000119408	NEK6	all	up_in_severe	1.51539	0.00450069	5	0.54	both	False
+ENSG00000196754	S100A2	all	up_in_severe	2.47552	0.00450069	21	0.52	both	False
+ENSG00000251076	ENSG00000251076	all	up_in_severe	2.02316	0.00752901	3	0.72	both	False
+ENSG00000206073	SERPINB4	all	up_in_severe	1.79041	0.0118913	10	0.7	both	False
+ENSG00000173432	SAA1	all	up_in_severe	2.09743	0.0119112	13	0.72	both	False
+ENSG00000004468	CD38	all	down_in_severe	-1.24252	0.0184353	1	0.64	both	True
+ENSG00000168497	CAVIN2	all	up_in_severe	1.67244	0.026762	10	0.68	both	False
+ENSG00000186832	KRT16	all	up_in_severe	2.55162	0.0348054	7	0.8	both	False
+ENSG00000133710	SPINK5	all	up_in_severe	1.62202	0.0425356	34	0.52	both	False
+ENSG00000007062	PROM1	ciliated_cells	down_in_severe	-0.798744	0.00079906			de	False
+ENSG00000131389	SLC6A6	ciliated_cells	down_in_severe	-1.10615	0.00079906			de	False
+ENSG00000160190	SLC37A1	ciliated_cells	down_in_severe	-0.908616	0.00622259			de	False
+ENSG00000153234	NR4A2	squamous_cells	down_in_severe	-1.92564	0.00769047			de	False
+ENSG00000160213	CSTB	squamous_cells	up_in_severe	1.46233	0.00769047			de	False
+ENSG00000130413	STK33	ciliated_cells	up_in_severe	0.532156	0.00936235			de	False
+ENSG00000140105	WARS1	secretory_cells	down_in_severe	-1.90623	0.0103729	119	0.2	de	True
+ENSG00000090266	NDUFB2	secretory_cells	up_in_severe	0.878236	0.0103729			de	False
+ENSG00000127540	UQCR11	secretory_cells	up_in_severe	1.3282	0.0103729			de	False
+ENSG00000164405	UQCRQ	secretory_cells	up_in_severe	0.833827	0.0103729			de	False
+ENSG00000103363	ELOB	squamous_cells	up_in_severe	1.13464	0.0124562	269	0.08	de	False
+ENSG00000087086	FTL	squamous_cells	up_in_severe	1.42505	0.0129399			de	False
+ENSG00000127540	UQCR11	squamous_cells	up_in_severe	1.31537	0.0129399			de	False
+ENSG00000137880	GCHFR	squamous_cells	up_in_severe	1.71474	0.0129399			de	False
+ENSG00000173432	SAA1	squamous_cells	up_in_severe	2.34477	0.0129399			de	False
+ENSG00000143556	S100A7	squamous_cells	up_in_severe	4.85094	0.0170183	23	0.24	de	False
+ENSG00000142910	TINAGL1	squamous_cells	up_in_severe	2.0546	0.0170183			de	False
+ENSG00000205542	TMSB4X	t_cells	up_in_severe	1.58504	0.01808			de	False
+ENSG00000186594	MIR22HG	squamous_cells	down_in_severe	-1.388	0.0199201	139	0.08	de	False
+ENSG00000168672	LRATD2	squamous_cells	down_in_severe	-1.33	0.0213617			de	False
+ENSG00000156508	EEF1A1	t_cells	up_in_severe	1.23352	0.022169			de	False
+ENSG00000152818	UTRN	squamous_cells	down_in_severe	-2.04315	0.0287498			de	False
+ENSG00000264522	OTUD7B	squamous_cells	down_in_severe	-1.19693	0.0287498			de	False
+ENSG00000005022	SLC25A5	secretory_cells	up_in_severe	0.678012	0.0298148			de	False
+ENSG00000111775	COX6A1	secretory_cells	up_in_severe	1.26699	0.0298148			de	False
+ENSG00000129235	TXNDC17	secretory_cells	up_in_severe	1.02088	0.0298148			de	False
+ENSG00000131174	COX7B	secretory_cells	up_in_severe	0.962276	0.0298148			de	False
+ENSG00000140264	SERF2	secretory_cells	up_in_severe	0.720964	0.0298148			de	False
+ENSG00000186010	NDUFA13	secretory_cells	up_in_severe	1.02094	0.0298148			de	False
+ENSG00000177700	POLR2L	secretory_cells	up_in_severe	0.884926	0.0384302			de	False
+ENSG00000170477	KRT4	squamous_cells	down_in_severe	-2.07759	0.0395115	73	0.3	de	False
+ENSG00000162889	MAPKAPK2	squamous_cells	down_in_severe	-1.00294	0.0395115			de	False
+ENSG00000181163	NPM1	t_cells	up_in_severe	1.22125	0.0408839			de	False
+ENSG00000166670	MMP10	secretory_cells	down_in_severe	-2.06371	0.0415854	8	0.46	de	False
+ENSG00000127125	PPCS	secretory_cells	up_in_severe	0.833228	0.0415854			de	False
+ENSG00000162368	CMPK1	secretory_cells	up_in_severe	0.729919	0.0415854			de	False
+ENSG00000173915	ATP5MK	secretory_cells	up_in_severe	0.998481	0.0415854			de	False
+ENSG00000184076	UQCR10	secretory_cells	up_in_severe	0.866309	0.0415854			de	False
+ENSG00000100342	APOL1	secretory_cells	down_in_severe	-1.21658	0.044622			de	False
+ENSG00000112695	COX7A2	secretory_cells	up_in_severe	0.65305	0.044622			de	False
+ENSG00000162598	C1orf87	ciliated_cells	up_in_severe	0.619966	0.0457106			de	False
+ENSG00000168461	RAB31	ciliated_cells	down_in_severe	-0.721428	0.0457106			de	False
+ENSG00000129295	DNAAF11	ciliated_cells	up_in_severe	0.641514	0.047607			de	False
+ENSG00000140254	DUOXA1	ciliated_cells	down_in_severe	-0.83441	0.047607			de	False
+ENSG00000119013	NDUFB3	secretory_cells	up_in_severe	1.13745	0.0477068			de	False
+ENSG00000183648	NDUFB1	secretory_cells	up_in_severe	1.24221	0.0477068			de	False
+ENSG00000241837	ATP5PO	secretory_cells	up_in_severe	0.950898	0.0477068			de	False
+ENSG00000148346	LCN2	squamous_cells	up_in_severe	1.11939	0.0489248			de	False
+ENSG00000065809	FAM107B	t_cells	down_in_severe	-0.832632	0.0494266			de	False
+ENSG00000171867	PRNP	t_cells	down_in_severe	-1.06232	0.0494266			de	False
+ENSG00000102317	RBM3	ciliated_cells	down_in_severe	-1.08353	0.0496575			de	False
+ENSG00000134138	MEIS2	ciliated_cells	up_in_severe	0.662585	0.0496575			de	False
+ENSG00000153774	CFDP1	ciliated_cells	up_in_severe	0.697491	0.0496575			de	False
+ENSG00000173915	ATP5MK	ciliated_cells	up_in_severe	0.814339	0.0496575			de	False
+ENSG00000230873	STMND1	ciliated_cells	up_in_severe	0.748182	0.0496575			de	False
+ENSG00000103479	RBL2	squamous_cells	up_in_severe	1.03141	0.0498726	523	0.06	de	False
+ENSG00000092199	HNRNPC	squamous_cells	up_in_severe	0.766878	0.0498726			de	False
+ENSG00000154518	ATP5MC3	secretory_cells	up_in_severe	0.71894	0.0499624			de	False
+ENSG00000168528	SERINC2	squamous_cells	up_in_severe	1.52199	0.0777287	5	0.52	model	False
+ENSG00000173432	SAA1	secretory_cells	up_in_severe	2.15096	0.0896237	3	1	model	False
+ENSG00000162366	PDZK1IP1	squamous_cells	up_in_severe	1.96427	0.100621	3	0.96	model	False
+ENSG00000173432	SAA1	ciliated_cells	up_in_severe	1.57325	0.237507	16	0.62	model	False
+ENSG00000057149	SERPINB3	squamous_cells	up_in_severe	1.35272	0.267823	37	0.62	model	False
+ENSG00000206073	SERPINB4	secretory_cells	up_in_severe	1.14701	0.361492	42	0.5	model	False
+ENSG00000275395	FCGBP	squamous_cells	up_in_severe	2.01655	0.442259	11	0.76	model	False
+ENSG00000214049	UCA1	squamous_cells	down_in_severe	-0.987008	0.662089	8	0.66	model	False
+ENSG00000196754	S100A2	secretory_cells	up_in_severe	0.923368	0.700481	6	0.88	model	False
+ENSG00000187608	ISG15	ciliated_cells	down_in_severe	-0.662496	0.779955	17	0.62	model	True
+ENSG00000119917	IFIT3	ciliated_cells	down_in_severe	-0.525827	0.795974	10	0.86	model	True
+ENSG00000120738	EGR1	ciliated_cells	down_in_severe	-0.421116	0.832738	24	0.58	model	False
+ENSG00000169509	CRCT1	squamous_cells	up_in_severe	0.403339	0.928842	7	0.76	model	False
+ENSG00000173432	SAA1	goblet_cells	up_in_severe	1.98188	0.999516	3	0.74	model	False
+ENSG00000109182	CWH43	ciliated_cells	up_in_severe			1	0.96	model	False
+ENSG00000214290	POU2AF3	ciliated_cells	down_in_severe			1	0.76	model	False
+ENSG00000124784	RIOK1	goblet_cells	down_in_severe			1	0.54	model	False
+ENSG00000134339	SAA2	goblet_cells	up_in_severe			1	0.94	model	False
+ENSG00000142528	ZNF473	secretory_cells	down_in_severe			1	0.7	model	False
+ENSG00000214049	UCA1	secretory_cells	down_in_severe			1	0.82	model	False
+ENSG00000169245	CXCL10	squamous_cells	down_in_severe			1	0.86	model	True
+ENSG00000010539	ZNF200	t_cells	down_in_severe			1	0.9	model	False
+ENSG00000185787	MORF4L1	t_cells	up_in_severe			1	0.78	model	False
+ENSG00000029364	SLC39A9	ciliated_cells	down_in_severe	-0.698955		2	0.68	model	False
+ENSG00000249816	LINC00964	ciliated_cells	down_in_severe			2	0.98	model	False
+ENSG00000138399	FASTKD1	goblet_cells	up_in_severe			2	0.76	model	False
+ENSG00000169469	SPRR1B	goblet_cells	up_in_severe			2	0.92	model	False
+ENSG00000115009	CCL20	secretory_cells	up_in_severe			2	0.86	model	False
+ENSG00000112425	EPM2A	squamous_cells	down_in_severe			2	0.52	model	False
+ENSG00000233901	LINC01503	squamous_cells	up_in_severe			2	1	model	False
+ENSG00000117643	MAN1C1	t_cells	down_in_severe			2	0.78	model	False
+ENSG00000140968	IRF8	t_cells	down_in_severe			2	0.86	model	True
+ENSG00000085465	OVGP1	ciliated_cells	down_in_severe			3	0.52	model	False
+ENSG00000135114	OASL	ciliated_cells	down_in_severe			3	1	model	True
+ENSG00000125257	ABCC4	secretory_cells	down_in_severe	-1.85867		3	0.58	model	False
+ENSG00000110934	BIN2	squamous_cells	down_in_severe			3	0.54	model	False
+ENSG00000043093	DCUN1D1	t_cells	up_in_severe			3	0.74	model	False
+ENSG00000132561	MATN2	ciliated_cells	down_in_severe			4	0.58	model	False
+ENSG00000198838	RYR3	ciliated_cells	up_in_severe			4	0.92	model	False
+ENSG00000092330	TINF2	goblet_cells	down_in_severe			4	0.62	model	False
+ENSG00000134326	CMPK2	goblet_cells	down_in_severe			4	0.72	model	True
+ENSG00000042062	RIPOR3	secretory_cells	down_in_severe			4	0.68	model	False
+ENSG00000179593	ALOX15B	secretory_cells	up_in_severe			4	0.9	model	False
+ENSG00000100234	TIMP3	squamous_cells	down_in_severe			4	0.98	model	False
+ENSG00000164144	ARFIP1	squamous_cells	up_in_severe			4	0.52	model	False
+ENSG00000140451	PIF1	t_cells	down_in_severe			4	0.82	model	False
+ENSG00000170017	ALCAM	t_cells	up_in_severe			4	0.5	model	False
+ENSG00000131203	IDO1	ciliated_cells	down_in_severe			5	0.9	model	True
+ENSG00000181852	RNF41	ciliated_cells	down_in_severe			5	0.56	model	False
+ENSG00000105641	SLC5A5	goblet_cells	up_in_severe			5	0.94	model	False
+ENSG00000108924	HLF	secretory_cells	down_in_severe			5	0.84	model	False
+ENSG00000132746	ALDH3B2	secretory_cells	up_in_severe			5	0.78	model	False
+ENSG00000163736	PPBP	squamous_cells	up_in_severe			5	0.84	model	False
+ENSG00000243156	MICAL3	t_cells	down_in_severe			5	0.78	model	False
+ENSG00000171695	LKAAEAR1	ciliated_cells	up_in_severe			6	1	model	False
+ENSG00000138131	LOXL4	squamous_cells	down_in_severe			6	0.7	model	False
+ENSG00000109684	CLNK	t_cells	down_in_severe			6	0.64	model	False
+ENSG00000076716	GPC4	ciliated_cells	down_in_severe			7	0.88	model	False
+ENSG00000164306	PRIMPOL	goblet_cells	up_in_severe			7	0.68	model	False
+ENSG00000100336	APOL4	secretory_cells	down_in_severe			7	0.74	model	False
+ENSG00000100918	REC8	secretory_cells	down_in_severe			7	0.54	model	False
+ENSG00000254988	ACER3-AS1	squamous_cells	up_in_severe			7	0.86	model	False
+ENSG00000182329	KIAA2012	t_cells	down_in_severe			7	0.8	model	False
+ENSG00000057149	SERPINB3	ciliated_cells	up_in_severe			8	0.84	model	False
+ENSG00000138061	CYP1B1	goblet_cells	down_in_severe			8	0.7	model	False
+ENSG00000134873	CLDN10	secretory_cells	down_in_severe			8	0.64	model	False
+ENSG00000140274	DUOXA2	ciliated_cells	down_in_severe			9	0.8	model	False
+ENSG00000134321	RSAD2	goblet_cells	down_in_severe			9	0.7	model	True
+ENSG00000128383	APOBEC3A	secretory_cells	down_in_severe			9	0.74	model	False
+ENSG00000204539	CDSN	squamous_cells	up_in_severe			9	0.74	model	False
+ENSG00000264577	ENSG00000264577	t_cells	up_in_severe			9	0.5	model	False
+ENSG00000113532	ST8SIA4	goblet_cells	down_in_severe			10	0.76	model	True
+ENSG00000164308	ERAP2	ciliated_cells	down_in_severe			11	0.76	model	False
+ENSG00000185745	IFIT1	goblet_cells	down_in_severe			11	0.64	model	True
+ENSG00000245164	LINC00861	t_cells	up_in_severe			11	0.58	model	False
+ENSG00000172818	OVOL1	ciliated_cells	down_in_severe			12	0.78	model	False
+ENSG00000163734	CXCL3	goblet_cells	up_in_severe			12	0.7	model	False
+ENSG00000123358	NR4A1	ciliated_cells	down_in_severe			13	0.64	model	False
+ENSG00000179593	ALOX15B	goblet_cells	up_in_severe			13	0.62	model	False
+ENSG00000134757	DSG3	secretory_cells	up_in_severe			13	0.62	model	False
+ENSG00000170465	KRT6C	squamous_cells	up_in_severe			13	0.6	model	False
+ENSG00000134326	CMPK2	ciliated_cells	down_in_severe	-0.721491		14	0.8	model	True
+ENSG00000112782	CLIC5	secretory_cells	down_in_severe			14	0.66	model	False
+ENSG00000228437	LINC02474	squamous_cells	down_in_severe			14	0.78	model	False
+ENSG00000117682	DHDDS	t_cells	down_in_severe			14	0.54	model	False
+ENSG00000165810	BTNL9	ciliated_cells	up_in_severe			15	0.68	model	False
+ENSG00000065911	MTHFD2	goblet_cells	up_in_severe			15	0.56	model	True
+ENSG00000140263	SORD	secretory_cells	up_in_severe			15	0.56	model	False
+ENSG00000186198	SLC51B	ciliated_cells	up_in_severe			16	0.72	model	False
+ENSG00000132821	VSTM2L	goblet_cells	up_in_severe			16	0.68	model	False
+ENSG00000087495	PHACTR3	secretory_cells	up_in_severe			16	0.54	model	False
+ENSG00000100012	SEC14L3	goblet_cells	down_in_severe			17	0.5	model	False
+ENSG00000105974	CAV1	secretory_cells	up_in_severe			17	0.54	model	False
+ENSG00000106366	SERPINE1	squamous_cells	down_in_severe			17	0.54	model	False
+ENSG00000008226	DLEC1	t_cells	down_in_severe			17	0.54	model	False
+ENSG00000048052	HDAC9	ciliated_cells	down_in_severe			18	0.78	model	False
+ENSG00000197632	SERPINB2	goblet_cells	up_in_severe			18	0.64	model	False
+ENSG00000174175	SELP	secretory_cells	down_in_severe			18	0.52	model	True
+ENSG00000149090	PAMR1	ciliated_cells	down_in_severe			19	0.7	model	False
+ENSG00000165914	TTC7B	squamous_cells	down_in_severe			19	0.58	model	False
+ENSG00000159713	TPPP3	t_cells	down_in_severe			19	0.62	model	False
+ENSG00000169245	CXCL10	ciliated_cells	down_in_severe			20	0.74	model	True
+ENSG00000185022	MAFF	ciliated_cells	down_in_severe			21	0.52	model	False
+ENSG00000100968	NFATC4	goblet_cells	up_in_severe			21	0.5	model	False
+ENSG00000137760	ALKBH8	t_cells	down_in_severe			21	0.62	model	False
+ENSG00000227053	MUC12-AS1	ciliated_cells	up_in_severe			22	0.6	model	False
+ENSG00000253368	TRNP1	goblet_cells	up_in_severe			22	0.52	model	False
+ENSG00000012817	KDM5D	ciliated_cells	down_in_severe			23	0.62	model	False
+ENSG00000137440	FGFBP1	goblet_cells	up_in_severe			23	0.56	model	False
+ENSG00000185477	GPRIN3	squamous_cells	down_in_severe			23	0.64	model	False
+ENSG00000198356	GET3	t_cells	down_in_severe			25	0.6	model	False
+ENSG00000183605	SFXN4	goblet_cells	up_in_severe			26	0.54	model	False
+ENSG00000247809	NR2F2-AS1	secretory_cells	down_in_severe			26	0.54	model	False
+ENSG00000018699	TTC27	t_cells	down_in_severe			27	0.56	model	False
+ENSG00000172432	GTPBP2	ciliated_cells	down_in_severe			28	0.52	model	False
+ENSG00000137959	IFI44L	ciliated_cells	down_in_severe			29	0.68	model	True
+ENSG00000186687	LYRM7	goblet_cells	up_in_severe			29	0.5	model	False
+ENSG00000115523	GNLY	squamous_cells	down_in_severe			29	0.54	model	False
+ENSG00000188039	NWD1	t_cells	down_in_severe			29	0.52	model	False
+ENSG00000130487	KLHDC7B	ciliated_cells	down_in_severe			30	0.56	model	False
+ENSG00000198759	EGFL6	goblet_cells	up_in_severe			31	0.54	model	False
+ENSG00000111537	IFNG	squamous_cells	down_in_severe			31	0.5	model	False
+ENSG00000185875	THNSL1	secretory_cells	up_in_severe			32	0.52	model	False
+ENSG00000205277	MUC12	ciliated_cells	up_in_severe			36	0.6	model	False
+ENSG00000167286	CD3D	squamous_cells	down_in_severe			36	0.54	model	False
+ENSG00000259884	NR4A1AS	t_cells	up_in_severe			36	0.58	model	False
+ENSG00000106479	ZNF862	goblet_cells	up_in_severe			37	0.5	model	False
+ENSG00000268566	ENSG00000268566	ciliated_cells	up_in_severe			39	0.52	model	False
+ENSG00000100453	GZMB	squamous_cells	down_in_severe			39	0.52	model	False
+ENSG00000115129	TP53I3	squamous_cells	up_in_severe			39	0.52	model	False
+ENSG00000088766	CRLS1	t_cells	down_in_severe			39	0.5	model	False
+ENSG00000061676	NCKAP1	t_cells	down_in_severe			44	0.52	model	False
+ENSG00000115165	CYTIP	squamous_cells	down_in_severe			47	0.62	model	False
+ENSG00000236039	LINC02889	goblet_cells	up_in_severe			49	0.52	model	False

@@ -1,0 +1,47 @@
+gene_id	gene_symbol	ct	direction	log2fc	padj	importance_rank	evidence	in_isg_set	role_summary	stability
+ENSG00000186832	KRT16	squamous_cells	up_in_severe	2.85516	1.35525e-06	1	both	False	stress/wound-induced keratin of activated, injured epithelium	0.72
+ENSG00000119408	NEK6	all	up_in_severe	1.51539	0.00450069	5	both	False	NIMA-related serine/threonine kinase, mitotic progression	0.54
+ENSG00000196754	S100A2	all	up_in_severe	2.47552	0.00450069	21	both	False	calcium-binding S100 protein of basal/squamous epithelium, stress response	0.52
+ENSG00000251076	ENSG00000251076	all	up_in_severe	2.02316	0.00752901	3	both	False	gene without a symbol in the reference annotation	0.72
+ENSG00000206073	SERPINB4	all	up_in_severe	1.79041	0.0118913	10	both	False	serine protease inhibitor (SCCA2), induced in inflamed squamous epithelium	0.7
+ENSG00000173432	SAA1	all	up_in_severe	2.09743	0.0119112	13	both	False	serum amyloid A1, acute-phase protein induced by IL-6/IL-1	0.72
+ENSG00000004468	CD38	all	down_in_severe	-1.24252	0.0184353	1	both	True	NAD+ glycohydrolase and immune-cell activation marker; interferon-inducible	0.64
+ENSG00000168497	CAVIN2	all	up_in_severe	1.67244	0.026762	10	both	False	caveolae component (SDPR), membrane organisation	0.68
+ENSG00000186832	KRT16	all	up_in_severe	2.55162	0.0348054	7	both	False	stress/wound-induced keratin of activated, injured epithelium	0.8
+ENSG00000133710	SPINK5	all	up_in_severe	1.62202	0.0425356	34	both	False	protease inhibitor LEKTI, maintains the epithelial barrier	0.52
+ENSG00000153234	NR4A2	squamous_cells	down_in_severe	-1.92564	0.00769047		de	False	orphan nuclear receptor, immediate-early gene that restrains inflammation	
+ENSG00000160213	CSTB	squamous_cells	up_in_severe	1.46233	0.00769047		de	False	cystatin B, inhibitor of cathepsin cysteine proteases	
+ENSG00000103363	ELOB	squamous_cells	up_in_severe	1.13464	0.0124562	269	de	False	elongin B, part of the elongin/VHL ubiquitin ligase and transcription elongation	0.08
+ENSG00000087086	FTL	squamous_cells	up_in_severe	1.42505	0.0129399		de	False	ferritin light chain, iron storage; ferritin rises in inflammation	
+ENSG00000169245	CXCL10	squamous_cells	down_in_severe			1	model	True	interferon-induced chemokine (IP-10) that recruits T and NK cells	0.86
+ENSG00000233901	LINC01503	squamous_cells	up_in_severe			2	model	False	long non-coding RNA, function not well defined	1
+ENSG00000112425	EPM2A	squamous_cells	down_in_severe			2	model	False	laforin, glycogen phosphatase	0.52
+ENSG00000162366	PDZK1IP1	squamous_cells	up_in_severe	1.96427	0.100621	3	model	False	MAP17, small membrane protein up in inflamed epithelium	0.96
+ENSG00000007062	PROM1	ciliated_cells	down_in_severe	-0.798744	0.00079906		de	False	prominin-1 (CD133), membrane glycoprotein of cilia and progenitor cells	
+ENSG00000131389	SLC6A6	ciliated_cells	down_in_severe	-1.10615	0.00079906		de	False	taurine transporter	
+ENSG00000160190	SLC37A1	ciliated_cells	down_in_severe	-0.908616	0.00622259		de	False	endoplasmic-reticulum glycerol-3-phosphate/phosphate antiporter	
+ENSG00000130413	STK33	ciliated_cells	up_in_severe	0.532156	0.00936235		de	False	serine/threonine kinase expressed in ciliated cells	
+ENSG00000109182	CWH43	ciliated_cells	up_in_severe			1	model	False	lipid remodelling of GPI-anchored proteins	0.96
+ENSG00000214290	POU2AF3	ciliated_cells	down_in_severe			1	model	False	POU-domain transcriptional coactivator (COLCA2/OCA-T2)	0.76
+ENSG00000249816	LINC00964	ciliated_cells	down_in_severe			2	model	False	long non-coding RNA, function unknown	0.98
+ENSG00000029364	SLC39A9	ciliated_cells	down_in_severe	-0.698955		2	model	False	zinc transporter ZIP9	0.68
+ENSG00000140105	WARS1	secretory_cells	down_in_severe	-1.90623	0.0103729	119	de	True	tryptophanyl-tRNA synthetase, strongly interferon-gamma-inducible	0.2
+ENSG00000090266	NDUFB2	secretory_cells	up_in_severe	0.878236	0.0103729		de	False	complex I subunit, oxidative phosphorylation	
+ENSG00000127540	UQCR11	secretory_cells	up_in_severe	1.3282	0.0103729		de	False	complex III subunit, oxidative phosphorylation	
+ENSG00000164405	UQCRQ	secretory_cells	up_in_severe	0.833827	0.0103729		de	False	complex III subunit, oxidative phosphorylation	
+ENSG00000214049	UCA1	secretory_cells	down_in_severe			1	model	False	long non-coding RNA (urothelial cancer associated 1)	0.82
+ENSG00000142528	ZNF473	secretory_cells	down_in_severe			1	model	False	zinc-finger protein in histone mRNA 3' end processing	0.7
+ENSG00000115009	CCL20	secretory_cells	up_in_severe			2	model	False	epithelial chemokine attracting CCR6+ dendritic and Th17 cells	0.86
+ENSG00000173432	SAA1	secretory_cells	up_in_severe	2.15096	0.0896237	3	model	False	serum amyloid A1, acute-phase protein induced by IL-6/IL-1	1
+ENSG00000205542	TMSB4X	t_cells	up_in_severe	1.58504	0.01808		de	False	thymosin beta-4, actin sequestering; abundant cytoskeletal gene	
+ENSG00000156508	EEF1A1	t_cells	up_in_severe	1.23352	0.022169		de	False	translation elongation factor 1-alpha	
+ENSG00000181163	NPM1	t_cells	up_in_severe	1.22125	0.0408839		de	False	nucleophosmin, nucleolar chaperone in ribosome biogenesis	
+ENSG00000065809	FAM107B	t_cells	down_in_severe	-0.832632	0.0494266		de	False	stress-responsive protein of unknown function	
+ENSG00000010539	ZNF200	t_cells	down_in_severe			1	model	False	zinc-finger protein, function poorly characterised	0.9
+ENSG00000185787	MORF4L1	t_cells	up_in_severe			1	model	False	chromatin-remodelling (NuA4/Sin3B) complex component	0.78
+ENSG00000140968	IRF8	t_cells	down_in_severe			2	model	True	interferon regulatory factor 8, interferon responses and myeloid/DC development	0.86
+ENSG00000117643	MAN1C1	t_cells	down_in_severe			2	model	False	Golgi alpha-mannosidase, N-glycan processing	0.78
+ENSG00000134339	SAA2	goblet_cells	up_in_severe			1	model	False	serum amyloid A2, acute-phase protein (SAA1 paralog)	0.94
+ENSG00000124784	RIOK1	goblet_cells	down_in_severe			1	model	False	atypical kinase in 40S ribosome maturation	0.54
+ENSG00000169469	SPRR1B	goblet_cells	up_in_severe			2	model	False	small proline-rich protein of the squamous cornified envelope	0.92
+ENSG00000138399	FASTKD1	goblet_cells	up_in_severe			2	model	False	mitochondrial RNA-binding protein	0.76
