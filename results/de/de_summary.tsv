@@ -1,0 +1,46 @@
+ct	contrast	n_donors_a	n_donors_b	status	n_genes_tested	n_sig	n_up	n_down
+all	severe_vs_mild	21	14	tested	11392.0	275.0	203.0	72.0
+ciliated_cells	severe_vs_mild	16	14	tested	5823.0	13.0	7.0	6.0
+goblet_cells	severe_vs_mild	12	9	tested	3703.0	0.0	0.0	0.0
+squamous_cells	severe_vs_mild	12	9	tested	2807.0	25.0	13.0	12.0
+secretory_cells	severe_vs_mild	15	9	tested	5254.0	25.0	22.0	3.0
+t_cells	severe_vs_mild	8	9	tested	906.0	16.0	14.0	2.0
+developing_ciliated_cells	severe_vs_mild	13	5	tested	6321.0	0.0	0.0	0.0
+basal_cells	severe_vs_mild	5	5	tested	862.0	2.0	0.0	2.0
+deuterosomal_cells	severe_vs_mild	8	3	tested	2598.0	0.0	0.0	0.0
+ionocytes	severe_vs_mild	4	4	tested	905.0	0.0	0.0	0.0
+macrophages	severe_vs_mild	6	1	skipped (< 3 donors in a group)				
+developing_secretory_and_goblet_cells	severe_vs_mild	2	0	skipped (< 3 donors in a group)				
+mitotic_basal_cells	severe_vs_mild	2	1	skipped (< 3 donors in a group)				
+dendritic_cells	severe_vs_mild	2	0	skipped (< 3 donors in a group)				
+b_cells	severe_vs_mild	1	1	skipped (< 3 donors in a group)				
+all	covid_vs_control	35	15	tested	12389.0	2371.0	1132.0	1239.0
+ciliated_cells	covid_vs_control	30	15	tested	8781.0	991.0	475.0	516.0
+goblet_cells	covid_vs_control	21	12	tested	3500.0	36.0	28.0	8.0
+squamous_cells	covid_vs_control	21	11	tested	3347.0	16.0	15.0	1.0
+secretory_cells	covid_vs_control	24	3	tested	10263.0	0.0	0.0	0.0
+t_cells	covid_vs_control	17	7	tested	2185.0	12.0	10.0	2.0
+developing_ciliated_cells	covid_vs_control	18	5	tested	7478.0	0.0	0.0	0.0
+basal_cells	covid_vs_control	10	9	tested	954.0	1.0	1.0	0.0
+deuterosomal_cells	covid_vs_control	11	1	skipped (< 3 donors in a group)				
+ionocytes	covid_vs_control	8	3	tested	3010.0	4.0	3.0	1.0
+macrophages	covid_vs_control	7	1	skipped (< 3 donors in a group)				
+developing_secretory_and_goblet_cells	covid_vs_control	2	5	skipped (< 3 donors in a group)				
+mitotic_basal_cells	covid_vs_control	3	1	skipped (< 3 donors in a group)				
+dendritic_cells	covid_vs_control	2	0	skipped (< 3 donors in a group)				
+b_cells	covid_vs_control	2	0	skipped (< 3 donors in a group)				
+all	severe_vs_control_icu	21	6	tested	13718.0	223.0	156.0	67.0
+ciliated_cells	severe_vs_control_icu	16	5	tested	10546.0	27.0	19.0	8.0
+goblet_cells	severe_vs_control_icu	12	5	tested	6096.0	34.0	12.0	22.0
+squamous_cells	severe_vs_control_icu	12	5	tested	6719.0	0.0	0.0	0.0
+secretory_cells	severe_vs_control_icu	15	4	tested	8485.0	27.0	25.0	2.0
+t_cells	severe_vs_control_icu	8	3	tested	2049.0	1.0	0.0	1.0
+developing_ciliated_cells	severe_vs_control_icu	13	0	skipped (< 3 donors in a group)				
+basal_cells	severe_vs_control_icu	5	4	tested	6328.0	35.0	16.0	19.0
+deuterosomal_cells	severe_vs_control_icu	8	3	tested	2982.0	0.0	0.0	0.0
+ionocytes	severe_vs_control_icu	4	1	skipped (< 3 donors in a group)				
+macrophages	severe_vs_control_icu	6	1	skipped (< 3 donors in a group)				
+developing_secretory_and_goblet_cells	severe_vs_control_icu	2	0	skipped (< 3 donors in a group)				
+mitotic_basal_cells	severe_vs_control_icu	2	0	skipped (< 3 donors in a group)				
+dendritic_cells	severe_vs_control_icu	2	0	skipped (< 3 donors in a group)				
+b_cells	severe_vs_control_icu	1	0	skipped (< 3 donors in a group)				
